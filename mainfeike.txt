@@ -1,0 +1,1051 @@
+           JS组成免费课第一天
+
+Js：引入方式：
+内嵌:<div id=“box”onclick=”alert(“珠峰”)”></div>
+内联:
+<script>  （写在<body>标签结束的上方）
+获取Id：document.getElementById(‘box’);
+获取class：document.getElementByTagName(‘box’);
+获取标签名：document.getElementByName(‘box’);
+alert();       会调用浏览器的内置弹框，会阻塞下面的代码
+console.log()；在控制台中打印结果
+console.dir()；在控制台显示打印js结果细节
+</script> 
+
+外链:需要一个.js后缀的一个文件需要在HTML中最下边引入
+<script src="./js/index.js"></script>里边不能写代码
+
+
+### 注释：
+//单行注释
+/**/多行注释
+
+JS组成：
+标准与法:ECMAscript  ES6 能让我们进行数据的操作、处理。。。
+ActionScript -> AS（用flash做的）
+JavaScript -> JS
+DOM：文档对象模型 
+BOM：浏览器对象模型
+JS的数据类型
+基本数据类型(值类型）按值操作
+1.数字:Number ：蓝色的阿拉伯数字100,25 ,NaN:（非法的数字）
+2.字符串：string ：单引号或者双引号包裹的内容（页面的文本，						  赋值的时候key值）
+3.布尔值：boolean （true 和false）               				4.空：null （空对象：前期只要出现null就要考虑元素是		   否存在1.元素存在但是写错了获取不到2.元素根本不存在
+空地址：（空指针）null现在不会有，将来也不会有）
+5.未定义：undefined （有这个东西但是没赋值，有可能将来会有）
+引用数据类型（对象 数组  函数 正则 Data）按地址操作
+6.对象 ：object（由键值对的形式表示，两对键值对用逗号隔开）
+
+变量：
+定义：把js中的数据存储到一个自定义的名字里，以便于复用。
+声明一个变量：Var 自定义的名字 = 数据
+var 和 let区别：1.var具有变量提升、预解析的功能，let找不到报错
+2.同域下let 声明的变量名字不能重复（包括函数名和参数名）
+3.Let有块级作用域
+
+常量：
+定义：定义之后不可以改变的量，改变的话会报错。
+
+对象：let obj = {
+"name":"朱逸冰",
+"age":25
+}
+key标准加上双引号，但js很随意可以不加，但是后台会默认给你加
+name、age叫属性名 zhuyibing、18叫属性值
+###元素的属性赋值才是写操作
+***变量的赋值是改变变量的值，不是元素属性的赋值
+
+关键字：
+系统已经使用的名字：let var count
+
+保留字：
+一般取变量名字或者常量名字使用小驼峰形式document.getElementById();
+
+InnerText:在元素中添加文本
+InnerHTML:在元素中添加文本（包括文本也包括内容结构）
+JS免费课第二天
+数据类型：数字
+Infinity：正无穷大
+NaN:非法的数字运算
+（任何类型和字符串相加，结果都是字符串，是字符串的拼接）
++字符串 = 数字。
+（数据在进行减法的时候，结果默认是数字类型，除法乘法运算一样）
+（取余%：如果前面数小于后面的数，取前面数本身）
+强制类型转换：
+parseInt:有两个参数：（字符串，多少进制）转换成数字
+第二个参数描述第一个参数的现在的进制数，最后转为十进制
+console.log(parseInt(‘110px’,2)):6
+infinity 空字符串、空数组[] 都是NaN、				console.log(parseInt([]));//NaN
+parseFloat：转换成数字并保留小数位。参数只有一位。
+从左往右查看，碰见非数字就停，若首个字符就是字母，就NaN，
+console.log(parseFloat(‘1515.255’))//1515.255
+Number: 转换成数字
+console.log(Number(‘’));//0 console.log(Number([]));//0
+空数组[]、空字符串、null都为0 ； 空对象{}、undefined则为NaN
+Num.toFixed:保留数字的指定的小数，并转为字符串且可以四舍五入计算
+Let num = 4.25652;
+console.log(num.toFixed(2));//4.26
+
+IsNaN();判断值是否为NaN，是结果为true，不是就位false。
+并且自己不等于自己NaN != NaN.
+isNaN会先用Number转译一波，然后在比较
+console.log(isNaN(‘’));//false
+
+字符串：toString();方法把数据类型转为字符串（null undefined除外）对象转字符串一定是【object Object】
+console.log(‘’+’adc’);//【object Object】
+alert();会默认调用toString();最后转为字符串。
+字符串跟引用类型比较，把引用而类型tostring转换成字符串在比较
+复杂字符串的拼接的时候，先初始化，然后在要加东西的位置先‘’，在++就可以了//’++’；
+拼接的时候不能回车，会报错。
+字符串前面有一个+ 转为数字
+***ES6提出一个模板字符串解决这一问题；
+`${}`  :1边上的符号上句号
+box.innerHTML?=?`<span&nbspstyle="width:${w}px;
+height:${h}px;
+background:${bg};
+display:${bk}"></span>`;
+
+布尔值：boolean
+空字符串为假，0 ,false NaN null undefined都为假
+非空字符串、空数组、空对象、非0数字、对象数组为真 
+*要是先由number转换为0在 boolean就为假*
+console.log(Boolean(Number([])));//false
+先用Boolean([])转数组，结果为true，再取反!，为false。
+技巧：用！！来快速检测某个数据类型真假：console.log(!!null);//false
+console.log(!![]);//true
+;                                                                                                                                    
+Null：基本数据类型
+1.赋值一个空地址：一般用来释放不用的变量: var box = null;
+2.正则表达式没有匹配到字符，出现null报错
+3.元素没有找到或者不存在
+Undefined：基本数据类型
+未定义的情况：1.声明一个变量没有赋值。Let a;var a;//undefined
+2.函数没有返回值的时候。//undefined函数返回  这就是return后面的数据，没有return默认为                         undefined。
+3.对象或数组下没有某个属性，也为undefined。
+4.基本数据类型自定义一个属性或方法,也为
+Undefined (除了null和undefined)
+5.函数有形参，没有传入实参的时候
+console.log(undefined==null);//true(因为undefined是由null派生出来的)
+console.log(undefined===null);//false（因为不仅比较值还要比较类型）
+如何拿到函数返回值？
+1.用一个变量接收函数返回值let f = fn();f就是return后面的东西
+2.直接打印出函数的返回值console.log(fn());
+
+对象：Object引用类型（万物皆对象）
+对象：创建对象时会开辟一个16进制的空间，对象key值是字符串。
+var obj = {a:’ss’,b:90}
+var v1=obj.a//使用点的方式
+var v2=obj[“a”]//使用中括号方式
+【】中放的东西或者这个东西的结果必须是字符串。
+形式：{}、[]、RegExp、函数
+问题：什么时候用【】？
+Key值会发生变化的时候（.后面不能带变量）
+Delete obj.sex;删除一个对象中的某个属性。
+同一个key有多个值时，后面会覆盖前面的。
+数组的length属性：可以读也可以写；ary.length=10;
+数组length-1就是数组的最后一个元素
+Length超过了原数组长度：empty*（超过-length）
+
+赋值 赋址：
+在运行js的时候会开辟一个执行栈，用来运行js代码，在浏览器中执行叫全局作用域。在服务器中环境为global。
+
+简单类型按值操作：是复制了值给变量，改了一个不会影响另一个
+引用类型按地址操作：是把自己的地址给变量，改了一个另一个也变
+
+if-else嵌套
+if(条件表达式1){
+ 语句1;
+}else if(条件表达式2){
+ 语句2;
+}else..if(条件表达式n){m
+ 语句n；
+}else{
+ 语句n+1;  //以上所有的条件都是false
+}
+
+
+switch-case
+是一种特殊的多项分支语句
+switch(表达式){//通常表达式是一个变量
+  case 值1：//如果表达式的值为值1
+     语句1;
+     break;   //结束switch语句的值,没有会向下穿透
+  ......
+   defaule:（相当于else）
+      语句n+1;   //如果表达式和case中的每个值比较都是false
+}
+表达式在和case中的值比较的时候使用的是全等于，要求值和类型都相同。
+
+对比if-else嵌套和switch-case的区别：
+相同点：两者都可以用于多项分支语句
+不同点：if-else既可以判断等于或不等的情况，使用范围更广；switch-case只能判断全等于的情况，结构上更清晰，执行效率更高。能用switch语句的一定可以改写成if语句。
+
+
+
+
+比较：
+*一个等号代表赋值：=
+Let a=a+w
+
+*两个人等号代表比较：==  
+数字和数字比较的是值
+Null和undefined都不等于别的数据类型
+数字和字符串比较，字符串先转换为数字，在进行数字的值得比较
+对象和数字比较，对象先使用toString()转换再转为数字，最后是数字的比较，{}最终转为NaN。NaN不等于任何，也不等于自己。
+对象和对象比较的是空间地址
+数字和引用类型比较，先tostring转换，在number转换，再就比较
+[] == []//false
+两个字符串比较的是Unicode编码。
+html = html + <span></span>
+html +=<span></span>
+上面这两个写法是想等的
+
+*单个等号代表全等：===    （比较的是值和类型）严谨
+
+
+逻辑运算符：
+&&并且 ： 关联的两个条件都是true,结果是true，否则false
+（前边成立给后边，前边不成路给前边）
+|| 或者 ： 关联的两个条件只要有一个是true，结果是true ，否则			  两个都是false才是false。
+（前边成立给前边，前边不成立给后边）
+三目运算符：
+一目 一个运算符连接的一个数据 ！false  ++  --
+二目 一个运算符连接的两个数据  =  +  -....
+三目 两个运算符连接的三个数据  ？ ：
+条件表达式   ？ 表达式1   ：表达式2
+如果条件表达式为true,执行表达式1
+如果条件表达式为false,执行表达式2
+
+循环：
+循环就是一遍一遍执行相同或相似的代码
+循环的两个要素：
+循环的条件：控制循环的次数
+循环体:反复执行相同或相似的代码
+
+1.while循环
+while(循环条件){//不知晓条件
+ 循环体;
+}
+
+2.break
+在循环中，可以使用break强制结束任何形式循环
+
+3.do-while循环
+do{
+ 循环体
+}while(循环条件);
+
+
+
+
+4.for循环
+for(表达式1;表达式2;表达式3){
+  循环体4；}
+表达式1：初始值（执行一次）
+表达式2：循环条件
+表达式3：增量（自增或自减）
+执行顺序步骤：1243
+打印1~50之间所有的奇数：
+for(var i=1;i<=50;i++){
+ if(i%2===1){
+ console.log(i);
+ }
+
+九九算法表：
+for(let i=1;i<=9;i++){
+for(let j=1;j<=9;j++){
+console.log(`${i}*${j}=${i*j}`);
+}
+<br/
+}
+
+
+
+for循环中
+ 跳过：continue某个条件成立就跳过循环，接着					  进行下次循环
+for(var?i=1;i<=5;i++){
+????if(i===3){
+????continue;
+????}
+????console.log(i);//1245
+???}
+
+跳出：break某个条件成立的时候，跳出循环体,中断后面的循环
+for(var?i=1;i<=5;i++){
+????if(i===3){
+????????break;
+????}
+????console.log(i);//1,2
+???}
+???console.log(i);//3
+
+
+数据检测：
+###   Typeof：专门用来检测一个数据类型是不是对象；返回的结果是一个小写的（字符串）类型值。
+判断形式：console.log(typeof new Data());//object
+检测 null，返回object
+还可以检测函数console.log(fn);//‘function’
+###  Instanceof :二元运算符，用来判断左支是不是右支构造出来的
+Lei ary = [];
+console.long(ary instanceof Array);//true
+###  Object的toString：
+Object.prototype.toString.call(ary)===’[Object.Array]’;//true
+### [].constructor === Array
+
+
+面试题：
+Let a = 10;
+console.log(a++  ==  ++a);//前面是10，后面是12 false
+其实是a和（++ == ++a）的比较10+1=11++a=11+1=12;从左往右运算
+console.log( ++a == a++);//前面是11 后面也是11 true（前面a=11直接付给右边的a）
+
+For in：
+in：运算符：运算对象是否有某个属性。
+let?obj?=?{
+????name:'朱逸冰',
+????age:30,
+????job:'前端开发'
+}
+console.log(‘age’ in obj);
+for in:上的变量就是每个属性的名；
+会枚举对象的值。
+
+例题：
+let?obj?=?{
+????width:'100px',
+????height:'100px',
+????background:'skyblue',
+????border:'1px?solid?#000'
+}
+const?box?=?document.getElementById('box');
+for(var?attr?in?obj){
+//????box.style.width?=?obj.width;
+//????box.style.height?=?obj.height;
+//????box.style.background?=?obj.background;
+//????box.style.border?=?obj.border;
+???console.log(attr);//打印出width?height?background?border?
+???box.style[attr]=obj[attr];//box.style后面的点.可以写成box.style[attr];同样obj.width...其余仨个也可以写成obj[attr];
+}
+
+
+
+函数：function
+
+1.函数定义：
+function fn(){console.log(1);}let f = fn();
+开辟一个16进制的堆内存
+1.声明函数：function 函数名(){
+  把js代码当做字符串存储
+}
+2.再把内存地址赋值给函数名
+2.函数调用：
+形式：函数名+（）；
+1.开辟一个执行栈
+2.形参赋值
+3.把函数体内的字符串放到执行栈中执行（执行上下文）
+4.把变量销毁
+
+函数表达式：
+Let fn = function(){console.log(1);}fn();
+两个的区别：函数定义的fn()在同作用域内直系函数中都可以
+ 	函数表达式的fn()必须在定义之后才可以执行调用
+
+匿名函数：自执行
+(function(形参列表){
+  //函数体;  变量和函数都不能被外部访问到
+})(实参列表);
+
+
+
+
+创建带有参数的函数
+function fn(a,b){//用来接收传递的数据
+ 函数体
+}
+fn(3,’12’);
+调用
+函数名称(参数列表)  //实际要传递的数据
+参数：创建函数时的参数称为形参(a,b)，调用函数时的参数称为实参(3,’12’)（实参任何数据类型都可以传）。调用的时候会把实参的值赋给形参，多个参数之间用逗号隔开，形参和实参一一对应关系。参数可以有0个或多个。
+如果形参未赋值（实参没有传值），则为underfined
+function fn(a,b){}
+fn(1);//1 undefined
+常用函数调用例子：
+function fn(obj){
+obj.callback();
+}
+fn({
+callback:function(){
+alert(1);
+}
+})
+
+arguments:类数组，代表实参的集合
+function fn(a,b){
+console.log(b)//2
+arguments[0]=3;
+console.log(b)//3
+}
+fn(1,2)
+
+ES6：使用...代替了arguments，叫剩余运算符
+function fn(a,...arg){
+Console.log(a,arg);//12345
+}
+fn(1,2,3,4,5);a其实也可以直接不写（...arg）
+
+return: 函数返回值（默认的是undefined）
+用一个变量去接收 函数名+()；变量存储的就是函数返回值
+函数值return返回的是什么，打印出这个变量就是什么
+function fn(a,b){
+console.log(a+b);//打印结果3
+return function(){
+console.log(5)
+}
+}
+Let y = fn(1,2);
+console.log(y);//结果是：function(){console.log(5)}
+
+想访问函数内部的值的办法？？
+1.用一个变量接收函数的返回值
+2.直接console打印出函数执行console.log(fn());
+window.alert=function(){} alert();没有return返回值。
+alert(alert(1));//先1后undefined
+
+什么时候用return？？
+函数：为了复用
+函数里return出现后，后续代码不会再执行。
+1.把函数内的运算结果拿到函数外面使用。
+2.在函数中可以使用return终止后面的代码。
+（当某个条件成立，不再执行下面的代码）
+
+
+获取：
+document.querySelectorAll(‘li’);获取的是一个集合，想单个获取要加下标
+
+自定义属性：给引用类型添加一个标识，一一对应的时候，要首先考				虑自定义属性
+Box[i].index = i;
+变量：let a = 10;a就是一个变量
+属性：obj.a =10;a就是object的一个属性
+好处：1.每个元素或对象都有一个相同名字的属性，但是互相不干扰，2.存值
+const box = document.getElementById(‘box’);//代码块缓存
+//基于box下的TXT
+const txt = box.query.Selector(‘.txt’);
+
+
+
+Url :
+协议 :https
+域名 :baidu (IP的别名)
+端口号  ：提供不同服务的‘门牌地址’
+查询信息 ：问号到井号之间的内容key = val&key2=val2...
+hash信息:井号之后的内容
+
+
+
+
+
+
+数组对象：Array
+数组字面量：[元素一，元素二] 
+数组构造：new Array(4);           
+动态方法：实例上的可以调用的方法：
+Push()方法：公式：数组.push(数据，数据);数据可以是数组或对象
+在数组的最后一位添加一个或多个数据
+（返回值是新数组的长度，原数组会改变）
+var?ary?=?[1,2,3];
+console.log(ary.push(4,5,{a:1,b:2},[4,5]));//7
+console.log(ary);//(7)?[1,?2,?3,?4,?5,?{…},?Array(2)]
+let ary=[1,2];
+console.log(ary.push(4,5,6,ary.shift(4,5)));//返回值是一个长度数字
+ary.shift(4,5)://返回的是删除的数组的长度是：1
+变为：console.log(ary.push(4,5,6,1));
+在添加到数组，所以长度就是5
+console.log(ary);//返回的是一个新数组。：【2,4,5,6,1】
+
+Pop()方法：公式：数组.pop();
+删除数组的最后一位数据
+（返回值是删除的数据，原数组会改变）
+let?ary?=?[1,2,3,[4],{a:1,b:2}];
+console.log(ary.pop());//{a: 1, b: 2}
+console.log(ary);//?[1,?2,?3,?Array(1)]
+
+Unshift()方法：在数组的前面添加一个或多个数据
+（返回值是新数组的长度，原数组会改变）
+let?ary?=?[1,2,3];
+console.log(ary.unshift(4,5,[6],{a:7}));//7
+console.log(ary);//(7)?[4,?5,?Array(1),?{…},?1,?2,?3]
+
+Shift()方法：删除数组最前面第一位
+（返回值是删除的数据，原数组会改变）
+let?ary?=?[1,2,3,4,5];
+console.log(ary.shift());//1
+console.log(ary);//(4)?[2,?3,?4,?5]
+***只要是函数名+()；就会获取这个方法（函数）的返回值。
+***方法的学习：1干嘛用的？2放几个参数？13返回值？
+4如何运用？5原理是什么？
+Cancat()方法
+连接一个或多个数组，如果没有传入参数=拷贝一份原数组
+（返回值是一个新数组，原数组不会改变）
+let ary = [1,3]
+let ary3 =ary.cancat();//浅拷贝了一份，复制了一个新地址、
+console.log(ary3 ==ary);//false
+
+Every()方法：
+（只有一个参数就是回调函数，回调函数又有三个参数）
+查看数组中的每个数据是否为指定条件的数据，如果都是，结果为true，如果有一个不是，结果为false。
+return是必须的条件.
+Let ary=[true,true,fasle];
+Let b=ary.every(function(item,index,all){
+console.log(item,index,all);
+//item是数组的每一项，index是这项数据的索引，
+return item==true;
+})  console.log(b);
+
+
+forEach()方法：循环数组
+（参数有两个，callback又有三个）：forEach(callback，修改的this指向)：（return 返回值是undefined）：
+（原数组值不改变）
+callback(item,index,all);//item数组每一项
+Let arr = [1,2,3,4];
+arr.forEach((item,index,all)=>{
+console.log(item,index,all);
+})
+
+Map()方法：
+循环数组的每一项，原数组的长度与新数组长度一致
+（返回一个新数组，原数组值及长度不变）
+语法：两个参数map(callback,修改this 指向)；
+let?ary?=[1,2,3,4];
+????????console.log(ary.map(item=>`<li>${item}</li>`));//["<li>1</li>",?"<li>2</li>",?"<li>3</li>",?"<li>4</li>"]
+????????console.log(ary);//(4)?[1,?2,?3,?4]
+
+Reverse:翻转数组：
+将一个数组从后到前翻转
+（返回值是新数组，并原数组发生改变）
+
+Join()方法:数组的方法
+数组转为字符串，然后用括号中的参数拼接。
+（返回值是字符串,原数组不改变）
+let ary=[‘珠’,‘峰’,‘培’,‘训’];
+console.log(ary.join(‘|’));
+console.log(ary)
+如果不传连接参数，默认是逗号连接。
+
+
+Filter()方法:
+筛选返回一组在回调函数中条件成立的数据，。
+（返回值是一个新数组，原数组不会改变）
+let ary = [1,2,5,3,6,4,8];
+console.log(ary.filter(item=>item>=5));//(3)?[5, 6, 8]
+console.log(ary)；//(7)?[1, 2, 5, 3, 6, 4, 8]
+
+Some()方法：
+查看数组中是否有一个条件是符合返回值得，只要有一个就返回true，一个都没有符合的就返回false。
+（返回值是布尔值，原数组不会改变）
+?let?ary?=?[true,1,2,6];
+console.log(ary.some(item=>item?==?'7'));//false
+console.log(ary);//(4)?[true,?1,?2,?6]
+
+let?ary?=?[true,1,2,6];
+console.log(ary.some(item=>item?==?'2'));//true
+console.log(ary);//(4)?[true,?1,?2,?6]
+
+
+Find()方法：
+找到回调函数中符合条件的数据并返回这个数据，找不到就是undefined。
+（返回值是查找的数据，原数组不会改变）
+let ary =[1,2,3,4];
+console.log(ary.find(item=>item===3));//3
+console.log(ary);//(4)?[1, 2, 3, 4]
+
+
+
+
+
+
+Findindex()方法：
+找到回调函数中符合条件的数据并返回这个数据的索引，找不到就是-1。
+（返回值是查找的数据的索引，原数组不会改变）
+let ary =[1,2,3,4];
+console.log(ary.findIndex(item=>item===3));//索引是2
+console.log(ary);//(4)?[1, 2, 3, 4]
+
+Includes()方法：
+查看数组中有没有指定条件的数据，有就是true，没有就是false。
+（返回值是布尔值，原数组不会改变）
+let ary =[1,2,3,4];
+console.log(ary.includes(3));//true
+console.log(ary);//(4)?[1, 2, 3, 4]
+
+
+
+
+
+indexOf()方法：
+两个参数（指定数据，从多少开始找，当前就是目标返回当前索引，当前不是，往后找最近的一个）
+找到指定数据的对应的索引，有就返回数据的索引，没有就是-1。
+（返回值是数据对应的索引，原数组不会改变）
+let ary =[1,2,3,4];
+console.log(ary.indexOf(3,2));//对应的索引2
+console.log(ary);//(4)?[1, 2, 3, 4];
+let?ary?=?[1,2,1,4,5,6,1,1,1];
+console.log(ary.indexOf(1,3));//6往后找
+console.log(ary);//(9)?[1,?2,?1,?4,?5,?6,?1,?1,?1]
+
+
+lastindexOf()方法；
+两个参数（找谁，从多少开始找，当前是目标但会当前数索引，当前不是目标，就往前数找到最近的一个目标返回索引）
+（返回值是数据对应的索引，原数组不会改变）
+从后往前找，查询指定的数据，找到返回索引，未找到就是-1；
+let?ary?=?[1,2,1,4,5,6,1,1,1];
+console.log(ary.lastIndexOf(1,5));//2?往前找
+console.log(ary);//(9)?[1,?2,?1,?4,?5,?6,?1,?1,?1]
+
+Slice()方法：
+slice(n,m) 截取数组中的元素，n开始的下标，m结束的下标，（不包含m本身），如果是负数表示倒数，如果m为空，会截取最后，返回数组。
+ary.slice();//不传值就是赋值一个数组
+（返回值是一个截取的新的数组，原数组不会改变）
+let?ary?=[1,2,3,4,5,6,9];
+console.log(ary.slice(1,4));//[2, 3, 4]
+console.log(ary);//(4)?(7)?[1, 2, 3, 4, 5, 6, 9]
+
+Splice方法增删改查
+形式：(start,count,value1,value2...)
+start为开始的下标，count删除的个数，value删除后补充的元素
+count为空，删除到最后，value为空只删除不补充任何元素。
+（返回值是删除的元素数组，原数组改变）
+增：let?ary?=?[1,2,3,4,5];
+console.log(ary.splice(1,0,8));//[]
+console.log(ary);//(6)?[1,?8,?2,?3,?4,?5]
+删：let?ary?=?[1,2,3,4,5];
+console.log(ary.splice(1,2));//[2,?3]
+console.log(ary);//(3)?[1,?4,?5]
+改：（替换的起始位置，修改几个，添加的数据）
+（1）let?ary?=?[1,2,3,4,5];
+console.log(ary.splice(3,1,8,9));//[]
+console.log(ary);//(5)?[1, 2, 3, 8, 9,5]
+增：在数组最前添加一个数据
+let?ary?=?[1,2,3,4,5];
+console.log(ary.splice(0,0,6));//[]
+console.log(ary);//(6)?[6,?1,?2,?3,?4,?5]
+查：又有删除可以查
+let?ary?=?[1,2,3,4,5];
+console.log(ary.splice(5,0));//[]
+console.log(ary);//(5)?[1,?2,?3,?4,?5]
+
+Reduce()方法：
+总计：循环数组累计每一次的返回结果。
+两个参数（callback，初始值）
+第一个参数为上一个结果，第二个参数为下一个数据。
+Callback两个参数（上一次的结果，下一次的值）
+let?ary?=?[10.5,6,3,2,8,1];?
+????//prev为上次的结果
+????let?a?=?ary.reduce(function(b,next){
+????????console.log(b,next);
+????????return?b?+?next;
+????},0);//开始传一个prev为0
+????console.log(a);//29.5
+
+Flat()方法:数组扁平化
+把多维数组变为一维数组：
+一个参数：ary.flat()；
+括号中的数字是：数组的现在几维数组，然后转一维。
+如果不知道数组里面包含几维，那括号里就是infinity。
+不写参数，默认拉平两个数组。
+let?ary?=[1,2,3,4,5,6,[7,[8,[9,10]]]];
+console.log(ary.flat(Infinity));//[1,?2,?3,?4,?5,?6,?7,?8,?9,?10]
+console.log(ary);//(7)?[1,?2,?3,?4,?5,?6,?Array(2)]
+
+
+
+
+Sort()方法：排序
+有一个参数sort(callback(a,b)):
+必须返回一个数字,外面要包裹一层parseInt();返回有效数字
+（返回值是排序好的新数组，原数组改变）
+Let ary = [1,5,4,’2’,’3px’];
+ary.sort(function(a,b){//可以换成箭头函数(a,b)=>{return a-b}
+return  parseInt(a)-parseInt(b);//从小到大排序
+return  parseInt(b)-parseInt(a);//从大到小排序})
+
+数组的扩展：...运算符
+作用:展开数组
+let?ary?=?[1,2,5,3,6,4,8,10,9];
+console.log(...ary);//1?2?5?3?6?4?8?10?9
+console.log(ary);//(9)?[1,?2,?5,?3,?6,?4,?8,?10,?9]
+
+数组去重：
+1.let?ary?=?[1,2,5,2,6,5,8,8,9];
+console.log([...new?Set(ary)]);//(6)?[1,?2,?5,?6,?8,?9]
+console.log(...new?Set(ary).size);//6
+2.for套for
+let ary =[1,2,3,2,5,6,1,2,3,2];
+for(let i=0;i<ary.length;i++){
+for(let j=j+1;j<ary.length;j++){
+if(){}
+}
+}
+3.种
+let?ary2??=?[];
+??for?(let?k?=?0;?k?<?ary.length;?k++)?{
+?????if?(ary2.includes(ary[k]))?{
+?????????continue;
+??????}else{
+?????????ary2.push(ary[k]);
+??????}
+????} 
+console.log(ary2);
+
+复制一个数组的方法：
+1.Concat():
+var arr1 = [1,2,3,4];
+  var arr2 = arr1.concat();
+2.slice()：
+ var arr1 = [1,2,3,4];
+   var2 = arr1.slice(0);
+3.扩展运算符： 
+  写法一： 
+var arr1 = [1,2,3,4];
+    var2 = [...arr1];
+  写法二：
+var arr1 = [1,2,3,4];
+    var [...arr2] = arr1;
+
+Array下的方法：
+new Array（构造函数）静态方法
+ [] ：（实例）实例上的方法叫动态方法
+Array.form();把类数组转为数组：可以用来转arguments。
+Array.isArray();检测参数中的数据是否为数组。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+字符串方法：string
+1.‘’“”``
+2.new String(‘abc’)
+3.Length属性只能读不能写
+
+Slice()和subString()功能一样，但是slice的参数可以为负数。
+subString():截取字符串中指定位置的字符。
+两个参数：（n,m）：n为起始位置，m为结束位置，但不包括m.        m不传默认截取到最后。n不能为负数，不然自动转为0.  
+n<m，否则会自动调换位置。
+let?str?=?'abch932yrb0c2unxqp9';
+????console.log(str.substring(4,7));//932
+????console.log(str.substring(4,0));//abch
+
+
+
+
+subStr():起始位置截取
+两个参数：（n,m）:n为起始位置，m截取的个数，m不传默认截取到最后。
+let?str?=?'abch932yrb0c2unxqp9';
+????console.log(str.substr(4,3));//932
+????console.log(str.substr(6));//2yrb0c2unxqp9
+
+
+
+charCodeAt()方法
+let?str?=?'abch932yrb0c2unxqp9';
+????console.log('9'.charCodeAt());?//把字符串转成unicode编码值57
+
+Includes():指定字符是否在整个字符串中出现，没有就是false。
+形式：str.includes(‘abc’)
+let?str?=?'abch932yrb0c2unxqp9';
+????console.log(str.includes('93'));//true
+
+
+
+indexOf():
+两个参数：1.（指定字符，m）从索引m开始往后找，返回找到第一个字符的下标 2.indexOf(x):x为第一次出现的位置索引
+
+
+lastIndexOf():
+两个参数：1.（指定字符，m）从m索引往前找，返回找到第一次字符的下标。2.lastindexOf(x):x为最后一次出现的位置索引
+let?str2?=?'txt.html.css.js';
+????console.log(?str2.substr(?str2.lastIndexOf('.')+1)?);//js
+
+Replace():替换
+缺点：一次只能替换一个解决方法：str.replace(/-/g,’/’)正则全局
+两个参数： （要替换谁（字符串||正则），替换成什么（字符串||回调函数））
+如果是回调函数，一定要return，不然替换结果是undefined
+let?str?=?'艹,你妹金三胖';//%$%^$
+????//?console.log(str.replace('你妹','%^&'));
+????let?ss?=?str.replace('你妹',function($0){//$0就是要替换的字符
+????????let?temp?=?'';
+????????for(let?i=0;i<$0.length;i++){
+????????????temp?+=?'*'
+????????}
+????????return?temp;?//如果是回调函数的情况下，那么一定要写return，不然返回替换结果为undefined
+????????//?console.log($0);
+????});
+????console.log(ss);//艹,**金三胖
+
+
+
+
+
+
+
+
+Split()：分隔符
+一个参数（分隔符）
+把字符串分割成数组，分隔符作为参数，把字符串按照指定字符分割然后放到数组中。
+只有空字符串切空字符串是一个空数组。
+let str = ‘’;
+console.log(str.split(‘’));//[]
+用整个字符串去分割，结果是两个空字符串。
+let str = ‘朱’;
+console.log(str.split(‘朱’));//[“”，“”]
+实例：
+1.let?str?=?'训培峰珠';
+console.log(str.split('').reverse().join(''));//珠峰培训
+
+2.//一个价格需要保留2为小数？??
+????let?num?=?10.99999;
+????let?str3?=?(num+'');
+????console.log(str3.substring(0,str3.indexOf('.')+3)*1);//10.99
+
+
+toUpperCase():转为大写
+toLowerCase():转为小写
+let?str2?=?'background-blend-mode-dsds-hahs-djsak:';
+????let?arr?=?str2.split('-');
+????let?temp?=?arr[0];//background
+????for(let?i=1;i<arr.length;i++){
+????????temp?+=?arr[i][0].toUpperCase()?+??arr[i].substr(1)
+????}
+????console.log(temp);//backgroundBlendModeDsdsHahsDjs
+
+Trim()：去掉字符串前后空格
+let?str?=?'???珠?峰?培?训???';
+????console.log(str.trim());//珠?峰?培?训
+
+Json:
+Let json = ‘{“name”:”珠峰”}’;
+1.转为对象：JSON.parse(json);//{“name”:”珠峰”}
+Let json = {“name”:”珠峰”};
+2.对象转json：JSON.stringify(json);//‘{“name”:”珠峰”}’
+3.函数转不了
+
+DOM：文档对象模型（document,object,model）
+通过document提供的API，赋予开发者操作页面的能力。
+页面的标签和DOM中的对象是一一对应的关系，操作对象就等于操作标签，在页面中所有的内容叫节点。Node 标签叫元素节点。
+检测数据类型：typeof
+检测节点类型：nodeType
+元素节点1  标签叫元素节点children找子级元素节点
+文本节点3 （包括文本和空文本）
+注释节点8  是文本节点的兄弟
+属性节点2  attributes当前元素的属性映射表
+文档节点9 （document.nodeType）
+nodeName:节点属性名称
+nadeValue:节点属性值
+权重：！Important(10000)>行内(1000)>id(100)>class(10)>标签(1)>*(0)
+childNodes:某个元素节点下的所有子级，是个集合，访问要用下标
+parentNode：找父级元素、节点
+previousElementSibling：上一个兄弟节点
+nextElementSibling：下一个兄弟节点
+firstElementsChild:第一个子元素节点
+lastElementsChild:最后一个子元素节点
+获取元素：document.body...
+创建元素：1.ele.innerHTML = ‘<div></div>’：字符串
+2.document.createElement(标签名)：节点
+插入元素：parent.appendChild(children)
+appendChild:往指定元素的末位添加元素
+ Parent.insertBefore(new,old):往前面插入
+删除元素：parent.removeChild(ele);
+替换元素：parent.replaceChild(new,old);
+克隆元素：parent.cloneNode();默认克隆当前元素，不会克隆子级
+如果要克隆子级，在括号里传入true。parent.cloneNode(true);
+
+行间的属性操作：getAttribute(属性名)：获取指定属性的值
+setAttribute(属性名，属性值)；设置
+element.dataset.index = 1;（行间也可设置，很常用）			    removeAttribute(属性名)：删除属性名
+自定义的行间属性都是放在attributes下的
+Id className属性都是直接放在对象下的
+***这两个不在一个空间下，attributes系列操作的属性就使用attributes系列获取，使用对象下的方式操作的属性就使用对象下的方式去获取。系统内置的默认属性除外。
+
+
+时间对象：Data构造函数，内置对象
+获取用户计算机当前本地的时间
+let d = new Data();//括号可以传参（字符串或数字：月-1）
+一下方法的括号中传相应的参数就是设置时间。
+console.log(d.getData(0))：参数为0，自动去上个月最后一天，
+console.log(d.getData(31))参数为当前月最后一天，自动去下个月第一天。
+console.log(d.getFullYear()):获取当前年份
+console.log(d.getMonth()+1):获取当前月份
+console.log(d.getData()):获取当前日
+console.log(d.getDay()):获取当前周几（周日是0）
+console.log(d.getHours()):获取当前小时
+console.log(d.getMiinutes()):获取当前分钟
+console.log(d.getSeconds()):获取当前秒
+console.log(d.getTime()):获取时间戳，是一串数字
+
+
+
+
+倒计时：未来时间-现在时间=剩下时间
+//未来时间
+let time =new Data(‘2019 9 6 12:40:00’);//工作要用服务器时间
+//当前时间：
+let now=new Data();
+//剩余时间：
+console.log(time - now);
+//转换成秒
+let t =Math.floor((time -now)/1000);
+//多少分
+//好记亿的方法0
+Let day = Math.floor(t/86400);
+t  %= 86400;
+Let h = Math.floor(t/3600);
+t  %= 3600;
+let min = Math.floor(t/60);
+t  %= 60;
+let se = Math.floor(t%60);
+console.log(min+’分’+se+’秒’)；
+
+
+
+定时器：
+1.只能操作一次的
+setTimeout(回调函数，什么时候执行函数（毫秒），第一个回调函数的参数),返回值是一个数字。
+let timer = setTimeout(function(){
+alert(‘111111111’);
+},3000)
+清除定时器
+clearTimeout（定时器的编号timer）
+btn.onclick?=?function(){
+????????clearTimeout(timer);
+????}
+2.连续操作，到了时间就操作
+setInterval(回调函数，什么时候执行函数（毫秒），第一个回调函数的参数);
+
+let?timer?=?setInterval(function(){
+????????console.log('炸');
+????},10);
+清除定时器
+clearInterval（定时器的编号timer）
+btn.onclick?=?function(){
+????????clearInterval(timer);
+}
+
+关键帧：16.7毫秒
+ requestAnimationFrame:根据刷频率走的，返回值是编号
+cancelAnimationFrame：关闭关键帧
+Math对象：(内置对象)
+console.dir(Math):查看Math下面的数学方法
+向下取整：console.log(Math.floor(1.6524))//1
+向上取整：console.log(Math.ceil(1.1524))//2
+取绝对值：Math.abs(-1);//1
+取最大值：console.log(Math.max(10,2,80,33))//80
+*使用扩展运算符：console.log(Math.max(...[10,2,80,’33’]))//80
+取最小值：console.log(Math.min(10,2,80,33))//2
+取幂：console.log(Math.pow(8,2));//64
+开方：console.log(Math.sqrt(8，8));//64
+取随机数：console.log(Math.random());//0~1之间无限不循环小数
+console.log(Math.random()*(y-x)+x);取x~y之间的随机数
+随机打乱数组：
+let ary = [1,2,5,9,7,8];
+ary. Sort(()=>{return ary.random()-0.5});
+取整数：四舍五入：console.log(Math.round(3.52));//4
+
+随机数：
+let?timer;
+????box.onclick?=?function(){
+????????//?console.log(Math.floor(Math.random()?*?str.length),str.length)
+????????timer?=?setInterval(function(){
+????????????str2?=?'';
+????????????while(str2.length?<?5){
+????????????????let?s?=?str[Math.floor(Math.random()?*?str.length)];
+????????????????if(!str2.includes(s)){
+????????????????????str2?+=?s;
+????????????????}
+????????????}
+????????????box.innerHTML?=?str2;
+????????},30);
+????}
+????btn.onclick?=?function(){
+????????clearInterval(timer);
+????????box.innerHTML?=?'58TCH';
+????}
+
+递归：就是函数自己调用自己
+写递归的时候一定要有一个条件终止递归，不然会死循环。
+什么时候用：？
+参数不同，还想反复执行同一段代码
+
+//?fn(5)??实现1+2+3+4+5??15
+
+????function?fn(n){
+????????if(n?===?1)return?1;
+????????return?fn(n-1)?+?n;
+????}
+????console.log(fn(5));
+
+
+选项卡：
+1.自定义属性：关联或一一对应，匹配的时候使用（核心）
+2.难点：this如何对应关联 btns[i].index = i;
+3.1.给每个按钮添加点击事件
+3.2.把默认的按钮存起来
+3.3.点击按钮的时候先把有颜色的按钮的classname清空，所有的			div也清空
+3.4.把当前的按钮的classname添加active
+3.5.把点击按钮对应的内容的classname也添加show
+3.6.把刚才默认变色的那个按钮变成当前的。
+
+
+排序：
+1.sort()
+2.冒泡排序:
+3.快速排序：
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
