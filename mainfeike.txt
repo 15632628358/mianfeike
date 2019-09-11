@@ -1,257 +1,257 @@
-           JS×é³ÉÃâ·Ñ¿ÎµÚÒ»Ìì
+           JSï¿½ï¿½ï¿½ï¿½ï¿½Ñ¿Îµï¿½Ò»ï¿½ï¿½
 
-Js£ºÒýÈë·½Ê½£º
-ÄÚÇ¶:<div id=¡°box¡±onclick=¡±alert(¡°Öé·å¡±)¡±></div>
-ÄÚÁª:
-<script>  £¨Ð´ÔÚ<body>±êÇ©½áÊøµÄÉÏ·½£©
-»ñÈ¡Id£ºdocument.getElementById(¡®box¡¯);
-»ñÈ¡class£ºdocument.getElementByTagName(¡®box¡¯);
-»ñÈ¡±êÇ©Ãû£ºdocument.getElementByName(¡®box¡¯);
-alert();       »áµ÷ÓÃä¯ÀÀÆ÷µÄÄÚÖÃµ¯¿ò£¬»á×èÈûÏÂÃæµÄ´úÂë
-console.log()£»ÔÚ¿ØÖÆÌ¨ÖÐ´òÓ¡½á¹û
-console.dir()£»ÔÚ¿ØÖÆÌ¨ÏÔÊ¾´òÓ¡js½á¹ûÏ¸½Ú
+Jsï¿½ï¿½ï¿½ï¿½ï¿½ë·½Ê½ï¿½ï¿½
+ï¿½ï¿½Ç¶:<div id=ï¿½ï¿½boxï¿½ï¿½onclick=ï¿½ï¿½alert(ï¿½ï¿½ï¿½ï¿½å¡±)ï¿½ï¿½></div>
+ï¿½ï¿½ï¿½ï¿½:
+<script>  ï¿½ï¿½Ð´ï¿½ï¿½<body>ï¿½ï¿½Ç©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï·ï¿½ï¿½ï¿½
+ï¿½ï¿½È¡Idï¿½ï¿½document.getElementById(ï¿½ï¿½boxï¿½ï¿½);
+ï¿½ï¿½È¡classï¿½ï¿½document.getElementByTagName(ï¿½ï¿½boxï¿½ï¿½);
+ï¿½ï¿½È¡ï¿½ï¿½Ç©ï¿½ï¿½ï¿½ï¿½document.getElementByName(ï¿½ï¿½boxï¿½ï¿½);
+alert();       ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ãµï¿½ï¿½ò£¬»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä´ï¿½ï¿½ï¿½
+console.log()ï¿½ï¿½ï¿½Ú¿ï¿½ï¿½ï¿½Ì¨ï¿½Ð´ï¿½Ó¡ï¿½ï¿½ï¿½
+console.dir()ï¿½ï¿½ï¿½Ú¿ï¿½ï¿½ï¿½Ì¨ï¿½ï¿½Ê¾ï¿½ï¿½Ó¡jsï¿½ï¿½ï¿½Ï¸ï¿½ï¿½
 </script> 
 
-ÍâÁ´:ÐèÒªÒ»¸ö.jsºó×ºµÄÒ»¸öÎÄ¼þÐèÒªÔÚHTMLÖÐ×îÏÂ±ßÒýÈë
-<script src="./js/index.js"></script>Àï±ß²»ÄÜÐ´´úÂë
+ï¿½ï¿½ï¿½ï¿½:ï¿½ï¿½ÒªÒ»ï¿½ï¿½.jsï¿½ï¿½×ºï¿½ï¿½Ò»ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½Òªï¿½ï¿½HTMLï¿½ï¿½ï¿½ï¿½ï¿½Â±ï¿½ï¿½ï¿½ï¿½ï¿½
+<script src="./js/index.js"></script>ï¿½ï¿½ß²ï¿½ï¿½ï¿½Ð´ï¿½ï¿½ï¿½ï¿½
 
 
-### ×¢ÊÍ£º
-//µ¥ÐÐ×¢ÊÍ
-/**/¶àÐÐ×¢ÊÍ
+### ×¢ï¿½Í£ï¿½
+//ï¿½ï¿½ï¿½ï¿½×¢ï¿½ï¿½
+/**/ï¿½ï¿½ï¿½ï¿½×¢ï¿½ï¿½
 
-JS×é³É£º
-±ê×¼Óë·¨:ECMAscript  ES6 ÄÜÈÃÎÒÃÇ½øÐÐÊý¾ÝµÄ²Ù×÷¡¢´¦Àí¡£¡£¡£
-ActionScript -> AS£¨ÓÃflash×öµÄ£©
+JSï¿½ï¿½É£ï¿½
+ï¿½ï¿½×¼ï¿½ë·¨:ECMAscript  ES6 ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÝµÄ²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ActionScript -> ASï¿½ï¿½ï¿½ï¿½flashï¿½ï¿½ï¿½Ä£ï¿½
 JavaScript -> JS
-DOM£ºÎÄµµ¶ÔÏóÄ£ÐÍ 
-BOM£ºä¯ÀÀÆ÷¶ÔÏóÄ£ÐÍ
-JSµÄÊý¾ÝÀàÐÍ
-»ù±¾Êý¾ÝÀàÐÍ(ÖµÀàÐÍ£©°´Öµ²Ù×÷
-1.Êý×Ö:Number £ºÀ¶É«µÄ°¢À­²®Êý×Ö100,25 ,NaN:£¨·Ç·¨µÄÊý×Ö£©
-2.×Ö·û´®£ºstring £ºµ¥ÒýºÅ»òÕßË«ÒýºÅ°ü¹üµÄÄÚÈÝ£¨Ò³ÃæµÄÎÄ±¾£¬						  ¸³ÖµµÄÊ±ºòkeyÖµ£©
-3.²¼¶ûÖµ£ºboolean £¨true ºÍfalse£©               				4.¿Õ£ºnull £¨¿Õ¶ÔÏó£ºÇ°ÆÚÖ»Òª³öÏÖnull¾ÍÒª¿¼ÂÇÔªËØÊÇ		   ·ñ´æÔÚ1.ÔªËØ´æÔÚµ«ÊÇÐ´´íÁË»ñÈ¡²»µ½2.ÔªËØ¸ù±¾²»´æÔÚ
-¿ÕµØÖ·£º£¨¿ÕÖ¸Õë£©nullÏÖÔÚ²»»áÓÐ£¬½«À´Ò²²»»áÓÐ£©
-5.Î´¶¨Òå£ºundefined £¨ÓÐÕâ¸ö¶«Î÷µ«ÊÇÃ»¸³Öµ£¬ÓÐ¿ÉÄÜ½«À´»áÓÐ£©
-ÒýÓÃÊý¾ÝÀàÐÍ£¨¶ÔÏó Êý×é  º¯Êý ÕýÔò Data£©°´µØÖ·²Ù×÷
-6.¶ÔÏó £ºobject£¨ÓÉ¼üÖµ¶ÔµÄÐÎÊ½±íÊ¾£¬Á½¶Ô¼üÖµ¶ÔÓÃ¶ººÅ¸ô¿ª£©
+DOMï¿½ï¿½ï¿½Äµï¿½ï¿½ï¿½ï¿½ï¿½Ä£ï¿½ï¿½ 
+BOMï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä£ï¿½ï¿½
+JSï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½(Öµï¿½ï¿½ï¿½Í£ï¿½ï¿½ï¿½Öµï¿½ï¿½ï¿½ï¿½
+1.ï¿½ï¿½ï¿½ï¿½:Number ï¿½ï¿½ï¿½ï¿½É«ï¿½Ä°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½100,25 ,NaN:ï¿½ï¿½ï¿½Ç·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö£ï¿½
+2.ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½string ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å»ï¿½ï¿½ï¿½Ë«ï¿½ï¿½ï¿½Å°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý£ï¿½Ò³ï¿½ï¿½ï¿½ï¿½Ä±ï¿½ï¿½ï¿½						  ï¿½ï¿½Öµï¿½ï¿½Ê±ï¿½ï¿½keyÖµï¿½ï¿½
+3.ï¿½ï¿½ï¿½ï¿½Öµï¿½ï¿½boolean ï¿½ï¿½true ï¿½ï¿½falseï¿½ï¿½               				4.ï¿½Õ£ï¿½null ï¿½ï¿½ï¿½Õ¶ï¿½ï¿½ï¿½Ç°ï¿½ï¿½Ö»Òªï¿½ï¿½ï¿½ï¿½nullï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½Ôªï¿½ï¿½ï¿½ï¿½		   ï¿½ï¿½ï¿½ï¿½ï¿½1.Ôªï¿½Ø´ï¿½ï¿½Úµï¿½ï¿½ï¿½Ð´ï¿½ï¿½ï¿½Ë»ï¿½È¡ï¿½ï¿½ï¿½ï¿½2.Ôªï¿½Ø¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½Õµï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö¸ï¿½ë£©nullï¿½ï¿½ï¿½Ú²ï¿½ï¿½ï¿½ï¿½Ð£ï¿½ï¿½ï¿½ï¿½ï¿½Ò²ï¿½ï¿½ï¿½ï¿½ï¿½Ð£ï¿½
+5.Î´ï¿½ï¿½ï¿½å£ºundefined ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã»ï¿½ï¿½Öµï¿½ï¿½ï¿½Ð¿ï¿½ï¿½Ü½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð£ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í£ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½  ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ Dataï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½
+6.ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½objectï¿½ï¿½ï¿½É¼ï¿½Öµï¿½Ôµï¿½ï¿½ï¿½Ê½ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½ï¿½ï¿½Ô¼ï¿½Öµï¿½ï¿½ï¿½Ã¶ï¿½ï¿½Å¸ï¿½ï¿½ï¿½ï¿½ï¿½
 
-±äÁ¿£º
-¶¨Òå£º°ÑjsÖÐµÄÊý¾Ý´æ´¢µ½Ò»¸ö×Ô¶¨ÒåµÄÃû×ÖÀï£¬ÒÔ±ãÓÚ¸´ÓÃ¡£
-ÉùÃ÷Ò»¸ö±äÁ¿£ºVar ×Ô¶¨ÒåµÄÃû×Ö = Êý¾Ý
-var ºÍ letÇø±ð£º1.var¾ßÓÐ±äÁ¿ÌáÉý¡¢Ô¤½âÎöµÄ¹¦ÄÜ£¬letÕÒ²»µ½±¨´í
-2.Í¬ÓòÏÂlet ÉùÃ÷µÄ±äÁ¿Ãû×Ö²»ÄÜÖØ¸´£¨°üÀ¨º¯ÊýÃûºÍ²ÎÊýÃû£©
-3.LetÓÐ¿é¼¶×÷ÓÃÓò
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½å£ºï¿½ï¿½jsï¿½Ðµï¿½ï¿½ï¿½ï¿½Ý´æ´¢ï¿½ï¿½Ò»ï¿½ï¿½ï¿½Ô¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï£¬ï¿½Ô±ï¿½ï¿½Ú¸ï¿½ï¿½Ã¡ï¿½
+ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Var ï¿½Ô¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ = ï¿½ï¿½ï¿½ï¿½
+var ï¿½ï¿½ letï¿½ï¿½ï¿½ï¿½1.varï¿½ï¿½ï¿½Ð±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô¤ï¿½ï¿½ï¿½ï¿½ï¿½Ä¹ï¿½ï¿½Ü£ï¿½letï¿½Ò²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+2.Í¬ï¿½ï¿½ï¿½ï¿½let ï¿½ï¿½ï¿½ï¿½ï¿½Ä±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö²ï¿½ï¿½ï¿½ï¿½Ø¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+3.Letï¿½Ð¿é¼¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
-³£Á¿£º
-¶¨Òå£º¶¨ÒåÖ®ºó²»¿ÉÒÔ¸Ä±äµÄÁ¿£¬¸Ä±äµÄ»°»á±¨´í¡£
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½å£ºï¿½ï¿½ï¿½ï¿½Ö®ï¿½ó²»¿ï¿½ï¿½Ô¸Ä±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä±ï¿½Ä»ï¿½ï¿½á±¨ï¿½ï¿½ï¿½ï¿½
 
-¶ÔÏó£ºlet obj = {
-"name":"ÖìÒÝ±ù",
+ï¿½ï¿½ï¿½ï¿½let obj = {
+"name":"ï¿½ï¿½ï¿½Ý±ï¿½",
 "age":25
 }
-key±ê×¼¼ÓÉÏË«ÒýºÅ£¬µ«jsºÜËæÒâ¿ÉÒÔ²»¼Ó£¬µ«ÊÇºóÌ¨»áÄ¬ÈÏ¸øÄã¼Ó
-name¡¢age½ÐÊôÐÔÃû zhuyibing¡¢18½ÐÊôÐÔÖµ
-###ÔªËØµÄÊôÐÔ¸³Öµ²ÅÊÇÐ´²Ù×÷
-***±äÁ¿µÄ¸³ÖµÊÇ¸Ä±ä±äÁ¿µÄÖµ£¬²»ÊÇÔªËØÊôÐÔµÄ¸³Öµ
+keyï¿½ï¿½×¼ï¿½ï¿½ï¿½ï¿½Ë«ï¿½ï¿½ï¿½Å£ï¿½ï¿½ï¿½jsï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô²ï¿½ï¿½Ó£ï¿½ï¿½ï¿½ï¿½Çºï¿½Ì¨ï¿½ï¿½Ä¬ï¿½Ï¸ï¿½ï¿½ï¿½ï¿½
+nameï¿½ï¿½ageï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ zhuyibingï¿½ï¿½18ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Öµ
+###Ôªï¿½Øµï¿½ï¿½ï¿½ï¿½Ô¸ï¿½Öµï¿½ï¿½ï¿½ï¿½Ð´ï¿½ï¿½ï¿½ï¿½
+***ï¿½ï¿½ï¿½ï¿½ï¿½Ä¸ï¿½Öµï¿½Ç¸Ä±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Öµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ôªï¿½ï¿½ï¿½ï¿½ï¿½ÔµÄ¸ï¿½Öµ
 
-¹Ø¼ü×Ö£º
-ÏµÍ³ÒÑ¾­Ê¹ÓÃµÄÃû×Ö£ºlet var count
+ï¿½Ø¼ï¿½ï¿½Ö£ï¿½
+ÏµÍ³ï¿½Ñ¾ï¿½Ê¹ï¿½Ãµï¿½ï¿½ï¿½ï¿½Ö£ï¿½let var count
 
-±£Áô×Ö£º
-Ò»°ãÈ¡±äÁ¿Ãû×Ö»òÕß³£Á¿Ãû×ÖÊ¹ÓÃÐ¡ÍÕ·åÐÎÊ½document.getElementById();
+ï¿½ï¿½ï¿½ï¿½ï¿½Ö£ï¿½
+Ò»ï¿½ï¿½È¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö»ï¿½ï¿½ß³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¹ï¿½ï¿½Ð¡ï¿½Õ·ï¿½ï¿½ï¿½Ê½document.getElementById();
 
-InnerText:ÔÚÔªËØÖÐÌí¼ÓÎÄ±¾
-InnerHTML:ÔÚÔªËØÖÐÌí¼ÓÎÄ±¾£¨°üÀ¨ÎÄ±¾Ò²°üÀ¨ÄÚÈÝ½á¹¹£©
-JSÃâ·Ñ¿ÎµÚ¶þÌì
-Êý¾ÝÀàÐÍ£ºÊý×Ö
-Infinity£ºÕýÎÞÇî´ó
-NaN:·Ç·¨µÄÊý×ÖÔËËã
-£¨ÈÎºÎÀàÐÍºÍ×Ö·û´®Ïà¼Ó£¬½á¹û¶¼ÊÇ×Ö·û´®£¬ÊÇ×Ö·û´®µÄÆ´½Ó£©
-+×Ö·û´® = Êý×Ö¡£
-£¨Êý¾ÝÔÚ½øÐÐ¼õ·¨µÄÊ±ºò£¬½á¹ûÄ¬ÈÏÊÇÊý×ÖÀàÐÍ£¬³ý·¨³Ë·¨ÔËËãÒ»Ñù£©
-£¨È¡Óà%£ºÈç¹ûÇ°ÃæÊýÐ¡ÓÚºóÃæµÄÊý£¬È¡Ç°ÃæÊý±¾Éí£©
-Ç¿ÖÆÀàÐÍ×ª»»£º
-parseInt:ÓÐÁ½¸ö²ÎÊý£º£¨×Ö·û´®£¬¶àÉÙ½øÖÆ£©×ª»»³ÉÊý×Ö
-µÚ¶þ¸ö²ÎÊýÃèÊöµÚÒ»¸ö²ÎÊýµÄÏÖÔÚµÄ½øÖÆÊý£¬×îºó×ªÎªÊ®½øÖÆ
-console.log(parseInt(¡®110px¡¯,2)):6
-infinity ¿Õ×Ö·û´®¡¢¿ÕÊý×é[] ¶¼ÊÇNaN¡¢				console.log(parseInt([]));//NaN
-parseFloat£º×ª»»³ÉÊý×Ö²¢±£ÁôÐ¡ÊýÎ»¡£²ÎÊýÖ»ÓÐÒ»Î»¡£
-´Ó×óÍùÓÒ²é¿´£¬Åö¼û·ÇÊý×Ö¾ÍÍ££¬ÈôÊ×¸ö×Ö·û¾ÍÊÇ×ÖÄ¸£¬¾ÍNaN£¬
-console.log(parseFloat(¡®1515.255¡¯))//1515.255
-Number: ×ª»»³ÉÊý×Ö
-console.log(Number(¡®¡¯));//0 console.log(Number([]));//0
-¿ÕÊý×é[]¡¢¿Õ×Ö·û´®¡¢null¶¼Îª0 £» ¿Õ¶ÔÏó{}¡¢undefinedÔòÎªNaN
-Num.toFixed:±£ÁôÊý×ÖµÄÖ¸¶¨µÄÐ¡Êý£¬²¢×ªÎª×Ö·û´®ÇÒ¿ÉÒÔËÄÉáÎåÈë¼ÆËã
+InnerText:ï¿½ï¿½Ôªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä±ï¿½
+InnerHTML:ï¿½ï¿½Ôªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä±ï¿½Ò²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý½á¹¹ï¿½ï¿½
+JSï¿½ï¿½Ñ¿ÎµÚ¶ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í£ï¿½ï¿½ï¿½ï¿½ï¿½
+Infinityï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+NaN:ï¿½Ç·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½Îºï¿½ï¿½ï¿½ï¿½Íºï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½Ó£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½Æ´ï¿½Ó£ï¿½
++ï¿½Ö·ï¿½ï¿½ï¿½ = ï¿½ï¿½ï¿½Ö¡ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú½ï¿½ï¿½Ð¼ï¿½ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ò£¬½ï¿½ï¿½Ä¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë·ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½È¡ï¿½ï¿½%ï¿½ï¿½ï¿½ï¿½ï¿½Ç°ï¿½ï¿½ï¿½ï¿½Ð¡ï¿½Úºï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È¡Ç°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+Ç¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×ªï¿½ï¿½ï¿½ï¿½
+parseInt:ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ù½ï¿½ï¿½Æ£ï¿½×ªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½Ú¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÚµÄ½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×ªÎªÊ®ï¿½ï¿½ï¿½ï¿½
+console.log(parseInt(ï¿½ï¿½110pxï¿½ï¿½,2)):6
+infinity ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[] ï¿½ï¿½ï¿½ï¿½NaNï¿½ï¿½				console.log(parseInt([]));//NaN
+parseFloatï¿½ï¿½×ªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö²ï¿½ï¿½ï¿½ï¿½ï¿½Ð¡ï¿½ï¿½Î»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö»ï¿½ï¿½Ò»Î»ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò²é¿´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö¾ï¿½Í£ï¿½ï¿½ï¿½ï¿½ï¿½×¸ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¸ï¿½ï¿½ï¿½ï¿½NaNï¿½ï¿½
+console.log(parseFloat(ï¿½ï¿½1515.255ï¿½ï¿½))//1515.255
+Number: ×ªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+console.log(Number(ï¿½ï¿½ï¿½ï¿½));//0 console.log(Number([]));//0
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[]ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½nullï¿½ï¿½Îª0 ï¿½ï¿½ ï¿½Õ¶ï¿½ï¿½ï¿½{}ï¿½ï¿½undefinedï¿½ï¿½ÎªNaN
+Num.toFixed:ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Öµï¿½Ö¸ï¿½ï¿½ï¿½ï¿½Ð¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×ªÎªï¿½Ö·ï¿½ï¿½ï¿½ï¿½Ò¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 Let num = 4.25652;
 console.log(num.toFixed(2));//4.26
 
-IsNaN();ÅÐ¶ÏÖµÊÇ·ñÎªNaN£¬ÊÇ½á¹ûÎªtrue£¬²»ÊÇ¾ÍÎ»false¡£
-²¢ÇÒ×Ô¼º²»µÈÓÚ×Ô¼ºNaN != NaN.
-isNaN»áÏÈÓÃNumber×ªÒëÒ»²¨£¬È»ºóÔÚ±È½Ï
-console.log(isNaN(¡®¡¯));//false
+IsNaN();ï¿½Ð¶ï¿½Öµï¿½Ç·ï¿½ÎªNaNï¿½ï¿½ï¿½Ç½ï¿½ï¿½Îªtrueï¿½ï¿½ï¿½ï¿½ï¿½Ç¾ï¿½Î»falseï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½Ô¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô¼ï¿½NaN != NaN.
+isNaNï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Number×ªï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½È»ï¿½ï¿½ï¿½Ú±È½ï¿½
+console.log(isNaN(ï¿½ï¿½ï¿½ï¿½));//false
 
-×Ö·û´®£ºtoString();·½·¨°ÑÊý¾ÝÀàÐÍ×ªÎª×Ö·û´®£¨null undefined³ýÍâ£©¶ÔÏó×ª×Ö·û´®Ò»¶¨ÊÇ¡¾object Object¡¿
-console.log(¡®¡¯+¡¯adc¡¯);//¡¾object Object¡¿
-alert();»áÄ¬ÈÏµ÷ÓÃtoString();×îºó×ªÎª×Ö·û´®¡£
-×Ö·û´®¸úÒýÓÃÀàÐÍ±È½Ï£¬°ÑÒýÓÃ¶øÀàÐÍtostring×ª»»³É×Ö·û´®ÔÚ±È½Ï
-¸´ÔÓ×Ö·û´®µÄÆ´½ÓµÄÊ±ºò£¬ÏÈ³õÊ¼»¯£¬È»ºóÔÚÒª¼Ó¶«Î÷µÄÎ»ÖÃÏÈ¡®¡¯£¬ÔÚ++¾Í¿ÉÒÔÁË//¡¯++¡¯£»
-Æ´½ÓµÄÊ±ºò²»ÄÜ»Ø³µ£¬»á±¨´í¡£
-×Ö·û´®Ç°ÃæÓÐÒ»¸ö+ ×ªÎªÊý×Ö
-***ES6Ìá³öÒ»¸öÄ£°å×Ö·û´®½â¾öÕâÒ»ÎÊÌâ£»
-`${}`  :1±ßÉÏµÄ·ûºÅÉÏ¾äºÅ
+ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½toString();ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×ªÎªï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½null undefinedï¿½ï¿½ï¿½â£©ï¿½ï¿½ï¿½ï¿½×ªï¿½Ö·ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½Ç¡ï¿½object Objectï¿½ï¿½
+console.log(ï¿½ï¿½ï¿½ï¿½+ï¿½ï¿½adcï¿½ï¿½);//ï¿½ï¿½object Objectï¿½ï¿½
+alert();ï¿½ï¿½Ä¬ï¿½Ïµï¿½ï¿½ï¿½toString();ï¿½ï¿½ï¿½×ªÎªï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í±È½Ï£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã¶ï¿½ï¿½ï¿½ï¿½ï¿½tostring×ªï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½Ú±È½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½Æ´ï¿½Óµï¿½Ê±ï¿½ï¿½ï¿½È³ï¿½Ê¼ï¿½ï¿½ï¿½ï¿½È»ï¿½ï¿½ï¿½ï¿½Òªï¿½Ó¶ï¿½ï¿½ï¿½ï¿½ï¿½Î»ï¿½ï¿½ï¿½È¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½++ï¿½Í¿ï¿½ï¿½ï¿½ï¿½ï¿½//ï¿½ï¿½++ï¿½ï¿½ï¿½ï¿½
+Æ´ï¿½Óµï¿½Ê±ï¿½ï¿½ï¿½Ü»Ø³ï¿½ï¿½ï¿½ï¿½á±¨ï¿½ï¿½ï¿½ï¿½
+ï¿½Ö·ï¿½ï¿½ï¿½Ç°ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½+ ×ªÎªï¿½ï¿½ï¿½ï¿½
+***ES6ï¿½ï¿½ï¿½Ò»ï¿½ï¿½Ä£ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½â£»
+`${}`  :1ï¿½ï¿½ï¿½ÏµÄ·ï¿½ï¿½ï¿½ï¿½Ï¾ï¿½ï¿½
 box.innerHTML?=?`<span&nbspstyle="width:${w}px;
 height:${h}px;
 background:${bg};
 display:${bk}"></span>`;
 
-²¼¶ûÖµ£ºboolean
-¿Õ×Ö·û´®Îª¼Ù£¬0 ,false NaN null undefined¶¼Îª¼Ù
-·Ç¿Õ×Ö·û´®¡¢¿ÕÊý×é¡¢¿Õ¶ÔÏó¡¢·Ç0Êý×Ö¡¢¶ÔÏóÊý×éÎªÕæ 
-*ÒªÊÇÏÈÓÉnumber×ª»»Îª0ÔÚ boolean¾ÍÎª¼Ù*
+ï¿½ï¿½ï¿½ï¿½Öµï¿½ï¿½boolean
+ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½Îªï¿½Ù£ï¿½0 ,false NaN null undefinedï¿½ï¿½Îªï¿½ï¿½
+ï¿½Ç¿ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½é¡¢ï¿½Õ¶ï¿½ï¿½ó¡¢·ï¿½0ï¿½ï¿½ï¿½Ö¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½ 
+*Òªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½number×ªï¿½ï¿½Îª0ï¿½ï¿½ booleanï¿½ï¿½Îªï¿½ï¿½*
 console.log(Boolean(Number([])));//false
-ÏÈÓÃBoolean([])×ªÊý×é£¬½á¹ûÎªtrue£¬ÔÙÈ¡·´!£¬Îªfalse¡£
-¼¼ÇÉ£ºÓÃ£¡£¡À´¿ìËÙ¼ì²âÄ³¸öÊý¾ÝÀàÐÍÕæ¼Ù£ºconsole.log(!!null);//false
+ï¿½ï¿½ï¿½ï¿½Boolean([])×ªï¿½ï¿½ï¿½é£¬ï¿½ï¿½ï¿½Îªtrueï¿½ï¿½ï¿½ï¿½È¡ï¿½ï¿½!ï¿½ï¿½Îªfalseï¿½ï¿½
+ï¿½ï¿½ï¿½É£ï¿½ï¿½Ã£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ù¼ï¿½ï¿½Ä³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ù£ï¿½console.log(!!null);//false
 console.log(!![]);//true
 ;                                                                                                                                    
-Null£º»ù±¾Êý¾ÝÀàÐÍ
-1.¸³ÖµÒ»¸ö¿ÕµØÖ·£ºÒ»°ãÓÃÀ´ÊÍ·Å²»ÓÃµÄ±äÁ¿: var box = null;
-2.ÕýÔò±í´ïÊ½Ã»ÓÐÆ¥Åäµ½×Ö·û£¬³öÏÖnull±¨´í
-3.ÔªËØÃ»ÓÐÕÒµ½»òÕß²»´æÔÚ
-Undefined£º»ù±¾Êý¾ÝÀàÐÍ
-Î´¶¨ÒåµÄÇé¿ö£º1.ÉùÃ÷Ò»¸ö±äÁ¿Ã»ÓÐ¸³Öµ¡£Let a;var a;//undefined
-2.º¯ÊýÃ»ÓÐ·µ»ØÖµµÄÊ±ºò¡£//undefinedº¯Êý·µ»Ø  Õâ¾ÍÊÇreturnºóÃæµÄÊý¾Ý£¬Ã»ÓÐreturnÄ¬ÈÏÎª                         undefined¡£
-3.¶ÔÏó»òÊý×éÏÂÃ»ÓÐÄ³¸öÊôÐÔ£¬Ò²Îªundefined¡£
-4.»ù±¾Êý¾ÝÀàÐÍ×Ô¶¨ÒåÒ»¸öÊôÐÔ»ò·½·¨,Ò²Îª
-Undefined (³ýÁËnullºÍundefined)
-5.º¯ÊýÓÐÐÎ²Î£¬Ã»ÓÐ´«ÈëÊµ²ÎµÄÊ±ºò
-console.log(undefined==null);//true(ÒòÎªundefinedÊÇÓÉnullÅÉÉú³öÀ´µÄ)
-console.log(undefined===null);//false£¨ÒòÎª²»½ö±È½ÏÖµ»¹Òª±È½ÏÀàÐÍ£©
-ÈçºÎÄÃµ½º¯Êý·µ»ØÖµ£¿
-1.ÓÃÒ»¸ö±äÁ¿½ÓÊÕº¯Êý·µ»ØÖµlet f = fn();f¾ÍÊÇreturnºóÃæµÄ¶«Î÷
-2.Ö±½Ó´òÓ¡³öº¯ÊýµÄ·µ»ØÖµconsole.log(fn());
+Nullï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+1.ï¿½ï¿½ÖµÒ»ï¿½ï¿½ï¿½Õµï¿½Ö·ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í·Å²ï¿½ï¿½ÃµÄ±ï¿½ï¿½ï¿½: var box = null;
+2.ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê½Ã»ï¿½ï¿½Æ¥ï¿½äµ½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½nullï¿½ï¿½ï¿½ï¿½
+3.Ôªï¿½ï¿½Ã»ï¿½ï¿½ï¿½Òµï¿½ï¿½ï¿½ï¿½ß²ï¿½ï¿½ï¿½ï¿½ï¿½
+Undefinedï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+Î´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½1.ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã»ï¿½Ð¸ï¿½Öµï¿½ï¿½Let a;var a;//undefined
+2.ï¿½ï¿½ï¿½ï¿½Ã»ï¿½Ð·ï¿½ï¿½ï¿½Öµï¿½ï¿½Ê±ï¿½ï¿½//undefinedï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½  ï¿½ï¿½ï¿½ï¿½ï¿½returnï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý£ï¿½Ã»ï¿½ï¿½returnÄ¬ï¿½ï¿½Îª                         undefinedï¿½ï¿½
+3.ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã»ï¿½ï¿½Ä³ï¿½ï¿½ï¿½ï¿½ï¿½Ô£ï¿½Ò²Îªundefinedï¿½ï¿½
+4.ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô¶ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½Ô»ò·½·ï¿½,Ò²Îª
+Undefined (ï¿½ï¿½ï¿½ï¿½nullï¿½ï¿½undefined)
+5.ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î²Î£ï¿½Ã»ï¿½Ð´ï¿½ï¿½ï¿½Êµï¿½Îµï¿½Ê±ï¿½ï¿½
+console.log(undefined==null);//true(ï¿½ï¿½Îªundefinedï¿½ï¿½ï¿½ï¿½nullï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½)
+console.log(undefined===null);//falseï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½ï¿½ï¿½ï¿½È½ï¿½Öµï¿½ï¿½Òªï¿½È½ï¿½ï¿½ï¿½ï¿½Í£ï¿½
+ï¿½ï¿½ï¿½ï¿½Ãµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Öµï¿½ï¿½
+1.ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Õºï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Öµlet f = fn();fï¿½ï¿½ï¿½ï¿½returnï¿½ï¿½ï¿½ï¿½Ä¶ï¿½ï¿½ï¿½
+2.Ö±ï¿½Ó´ï¿½Ó¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä·ï¿½ï¿½ï¿½Öµconsole.log(fn());
 
-¶ÔÏó£ºObjectÒýÓÃÀàÐÍ£¨ÍòÎï½Ô¶ÔÏó£©
-¶ÔÏó£º´´½¨¶ÔÏóÊ±»á¿ª±ÙÒ»¸ö16½øÖÆµÄ¿Õ¼ä£¬¶ÔÏókeyÖµÊÇ×Ö·û´®¡£
-var obj = {a:¡¯ss¡¯,b:90}
-var v1=obj.a//Ê¹ÓÃµãµÄ·½Ê½
-var v2=obj[¡°a¡±]//Ê¹ÓÃÖÐÀ¨ºÅ·½Ê½
-¡¾¡¿ÖÐ·ÅµÄ¶«Î÷»òÕßÕâ¸ö¶«Î÷µÄ½á¹û±ØÐëÊÇ×Ö·û´®¡£
-ÐÎÊ½£º{}¡¢[]¡¢RegExp¡¢º¯Êý
-ÎÊÌâ£ºÊ²Ã´Ê±ºòÓÃ¡¾¡¿£¿
-KeyÖµ»á·¢Éú±ä»¯µÄÊ±ºò£¨.ºóÃæ²»ÄÜ´ø±äÁ¿£©
-Delete obj.sex;É¾³ýÒ»¸ö¶ÔÏóÖÐµÄÄ³¸öÊôÐÔ¡£
-Í¬Ò»¸ökeyÓÐ¶à¸öÖµÊ±£¬ºóÃæ»á¸²¸ÇÇ°ÃæµÄ¡£
-Êý×éµÄlengthÊôÐÔ£º¿ÉÒÔ¶ÁÒ²¿ÉÒÔÐ´£»ary.length=10;
-Êý×élength-1¾ÍÊÇÊý×éµÄ×îºóÒ»¸öÔªËØ
-Length³¬¹ýÁËÔ­Êý×é³¤¶È£ºempty*£¨³¬¹ý-length£©
+ï¿½ï¿½ï¿½ï¿½Objectï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í£ï¿½ï¿½ï¿½ï¿½ï¿½Ô¶ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ó£º´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê±ï¿½á¿ªï¿½ï¿½Ò»ï¿½ï¿½16ï¿½ï¿½ï¿½ÆµÄ¿Õ¼ä£¬ï¿½ï¿½ï¿½ï¿½keyÖµï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½
+var obj = {a:ï¿½ï¿½ssï¿½ï¿½,b:90}
+var v1=obj.a//Ê¹ï¿½Ãµï¿½Ä·ï¿½Ê½
+var v2=obj[ï¿½ï¿½aï¿½ï¿½]//Ê¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å·ï¿½Ê½
+ï¿½ï¿½ï¿½ï¿½ï¿½Ð·ÅµÄ¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½Ê½ï¿½ï¿½{}ï¿½ï¿½[]ï¿½ï¿½RegExpï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½â£ºÊ²Ã´Ê±ï¿½ï¿½ï¿½Ã¡ï¿½ï¿½ï¿½ï¿½ï¿½
+KeyÖµï¿½á·¢ï¿½ï¿½ï¿½ä»¯ï¿½ï¿½Ê±ï¿½ï¿½.ï¿½ï¿½ï¿½æ²»ï¿½Ü´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+Delete obj.sex;É¾ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ðµï¿½Ä³ï¿½ï¿½ï¿½ï¿½ï¿½Ô¡ï¿½
+Í¬Ò»ï¿½ï¿½keyï¿½Ð¶ï¿½ï¿½ÖµÊ±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½á¸²ï¿½ï¿½Ç°ï¿½ï¿½Ä¡ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½lengthï¿½ï¿½ï¿½Ô£ï¿½ï¿½ï¿½ï¿½Ô¶ï¿½Ò²ï¿½ï¿½ï¿½ï¿½Ð´ï¿½ï¿½ary.length=10;
+ï¿½ï¿½ï¿½ï¿½length-1ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½Ôªï¿½ï¿½
+Lengthï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô­ï¿½ï¿½ï¿½é³¤ï¿½È£ï¿½empty*ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½-lengthï¿½ï¿½
 
-¸³Öµ ¸³Ö·£º
-ÔÚÔËÐÐjsµÄÊ±ºò»á¿ª±ÙÒ»¸öÖ´ÐÐÕ»£¬ÓÃÀ´ÔËÐÐjs´úÂë£¬ÔÚä¯ÀÀÆ÷ÖÐÖ´ÐÐ½ÐÈ«¾Ö×÷ÓÃÓò¡£ÔÚ·þÎñÆ÷ÖÐ»·¾³Îªglobal¡£
+ï¿½ï¿½Öµ ï¿½ï¿½Ö·ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½jsï¿½ï¿½Ê±ï¿½ï¿½á¿ªï¿½ï¿½Ò»ï¿½ï¿½Ö´ï¿½ï¿½Õ»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½jsï¿½ï¿½ï¿½ë£¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö´ï¿½Ð½ï¿½È«ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð»ï¿½ï¿½ï¿½Îªglobalï¿½ï¿½
 
-¼òµ¥ÀàÐÍ°´Öµ²Ù×÷£ºÊÇ¸´ÖÆÁËÖµ¸ø±äÁ¿£¬¸ÄÁËÒ»¸ö²»»áÓ°ÏìÁíÒ»¸ö
-ÒýÓÃÀàÐÍ°´µØÖ·²Ù×÷£ºÊÇ°Ñ×Ô¼ºµÄµØÖ·¸ø±äÁ¿£¬¸ÄÁËÒ»¸öÁíÒ»¸öÒ²±ä
+ï¿½ï¿½ï¿½ï¿½ï¿½Í°ï¿½Öµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç¸ï¿½ï¿½ï¿½ï¿½ï¿½Öµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ó°ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í°ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç°ï¿½ï¿½Ô¼ï¿½ï¿½Äµï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½Ò²ï¿½ï¿½
 
-if-elseÇ¶Ì×
-if(Ìõ¼þ±í´ïÊ½1){
- Óï¾ä1;
-}else if(Ìõ¼þ±í´ïÊ½2){
- Óï¾ä2;
-}else..if(Ìõ¼þ±í´ïÊ½n){m
- Óï¾än£»
+if-elseÇ¶ï¿½ï¿½
+if(ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê½1){
+ ï¿½ï¿½ï¿½1;
+}else if(ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê½2){
+ ï¿½ï¿½ï¿½2;
+}else..if(ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê½n){m
+ ï¿½ï¿½ï¿½nï¿½ï¿½
 }else{
- Óï¾än+1;  //ÒÔÉÏËùÓÐµÄÌõ¼þ¶¼ÊÇfalse
+ ï¿½ï¿½ï¿½n+1;  //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ðµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½false
 }
 
 
 switch-case
-ÊÇÒ»ÖÖÌØÊâµÄ¶àÏî·ÖÖ§Óï¾ä
-switch(±í´ïÊ½){//Í¨³£±í´ïÊ½ÊÇÒ»¸ö±äÁ¿
-  case Öµ1£º//Èç¹û±í´ïÊ½µÄÖµÎªÖµ1
-     Óï¾ä1;
-     break;   //½áÊøswitchÓï¾äµÄÖµ,Ã»ÓÐ»áÏòÏÂ´©Í¸
+ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¶ï¿½ï¿½ï¿½ï¿½Ö§ï¿½ï¿½ï¿½
+switch(ï¿½ï¿½ï¿½ï¿½Ê½){//Í¨ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+  case Öµ1ï¿½ï¿½//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê½ï¿½ï¿½ÖµÎªÖµ1
+     ï¿½ï¿½ï¿½1;
+     break;   //ï¿½ï¿½ï¿½ï¿½switchï¿½ï¿½ï¿½ï¿½Öµ,Ã»ï¿½Ð»ï¿½ï¿½ï¿½ï¿½Â´ï¿½Í¸
   ......
-   defaule:£¨Ïàµ±ÓÚelse£©
-      Óï¾än+1;   //Èç¹û±í´ïÊ½ºÍcaseÖÐµÄÃ¿¸öÖµ±È½Ï¶¼ÊÇfalse
+   defaule:ï¿½ï¿½ï¿½àµ±ï¿½ï¿½elseï¿½ï¿½
+      ï¿½ï¿½ï¿½n+1;   //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê½ï¿½ï¿½caseï¿½Ðµï¿½Ã¿ï¿½ï¿½Öµï¿½È½Ï¶ï¿½ï¿½ï¿½false
 }
-±í´ïÊ½ÔÚºÍcaseÖÐµÄÖµ±È½ÏµÄÊ±ºòÊ¹ÓÃµÄÊÇÈ«µÈÓÚ£¬ÒªÇóÖµºÍÀàÐÍ¶¼ÏàÍ¬¡£
+ï¿½ï¿½ï¿½ï¿½Ê½ï¿½Úºï¿½caseï¿½Ðµï¿½Öµï¿½È½Ïµï¿½Ê±ï¿½ï¿½Ê¹ï¿½Ãµï¿½ï¿½ï¿½È«ï¿½ï¿½ï¿½Ú£ï¿½Òªï¿½ï¿½Öµï¿½ï¿½ï¿½ï¿½ï¿½Í¶ï¿½ï¿½ï¿½Í¬ï¿½ï¿½
 
-¶Ô±Èif-elseÇ¶Ì×ºÍswitch-caseµÄÇø±ð£º
-ÏàÍ¬µã£ºÁ½Õß¶¼¿ÉÒÔÓÃÓÚ¶àÏî·ÖÖ§Óï¾ä
-²»Í¬µã£ºif-else¼È¿ÉÒÔÅÐ¶ÏµÈÓÚ»ò²»µÈµÄÇé¿ö£¬Ê¹ÓÃ·¶Î§¸ü¹ã£»switch-caseÖ»ÄÜÅÐ¶ÏÈ«µÈÓÚµÄÇé¿ö£¬½á¹¹ÉÏ¸üÇåÎú£¬Ö´ÐÐÐ§ÂÊ¸ü¸ß¡£ÄÜÓÃswitchÓï¾äµÄÒ»¶¨¿ÉÒÔ¸ÄÐ´³ÉifÓï¾ä¡£
-
-
+ï¿½Ô±ï¿½if-elseÇ¶ï¿½×ºï¿½switch-caseï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½Í¬ï¿½ã£ºï¿½ï¿½ï¿½ß¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú¶ï¿½ï¿½ï¿½ï¿½Ö§ï¿½ï¿½ï¿½
+ï¿½ï¿½Í¬ï¿½ã£ºif-elseï¿½È¿ï¿½ï¿½ï¿½ï¿½Ð¶Ïµï¿½ï¿½Ú»ò²»µÈµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¹ï¿½Ã·ï¿½Î§ï¿½ï¿½ï¿½ã£»switch-caseÖ»ï¿½ï¿½ï¿½Ð¶ï¿½È«ï¿½ï¿½ï¿½Úµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½á¹¹ï¿½Ï¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö´ï¿½ï¿½Ð§ï¿½Ê¸ï¿½ï¿½ß¡ï¿½ï¿½ï¿½ï¿½ï¿½switchï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½Ô¸ï¿½Ð´ï¿½ï¿½ifï¿½ï¿½ä¡£
 
 
-±È½Ï£º
-*Ò»¸öµÈºÅ´ú±í¸³Öµ£º=
+
+
+ï¿½È½Ï£ï¿½
+*Ò»ï¿½ï¿½ï¿½ÈºÅ´ï¿½ï¿½ï¿½ï¿½ï¿½Öµï¿½ï¿½=
 Let a=a+w
 
-*Á½¸öÈËµÈºÅ´ú±í±È½Ï£º==  
-Êý×ÖºÍÊý×Ö±È½ÏµÄÊÇÖµ
-NullºÍundefined¶¼²»µÈÓÚ±ðµÄÊý¾ÝÀàÐÍ
-Êý×ÖºÍ×Ö·û´®±È½Ï£¬×Ö·û´®ÏÈ×ª»»ÎªÊý×Ö£¬ÔÚ½øÐÐÊý×ÖµÄÖµµÃ±È½Ï
-¶ÔÏóºÍÊý×Ö±È½Ï£¬¶ÔÏóÏÈÊ¹ÓÃtoString()×ª»»ÔÙ×ªÎªÊý×Ö£¬×îºóÊÇÊý×ÖµÄ±È½Ï£¬{}×îÖÕ×ªÎªNaN¡£NaN²»µÈÓÚÈÎºÎ£¬Ò²²»µÈÓÚ×Ô¼º¡£
-¶ÔÏóºÍ¶ÔÏó±È½ÏµÄÊÇ¿Õ¼äµØÖ·
-Êý×ÖºÍÒýÓÃÀàÐÍ±È½Ï£¬ÏÈtostring×ª»»£¬ÔÚnumber×ª»»£¬ÔÙ¾Í±È½Ï
+*ï¿½ï¿½ï¿½ï¿½ï¿½ËµÈºÅ´ï¿½ï¿½ï¿½ï¿½È½Ï£ï¿½==  
+ï¿½ï¿½ï¿½Öºï¿½ï¿½ï¿½ï¿½Ö±È½Ïµï¿½ï¿½ï¿½Öµ
+Nullï¿½ï¿½undefinedï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½Öºï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½È½Ï£ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½×ªï¿½ï¿½Îªï¿½ï¿½ï¿½Ö£ï¿½ï¿½Ú½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Öµï¿½Öµï¿½Ã±È½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö±È½Ï£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¹ï¿½ï¿½toString()×ªï¿½ï¿½ï¿½ï¿½×ªÎªï¿½ï¿½ï¿½Ö£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÖµÄ±È½Ï£ï¿½{}ï¿½ï¿½ï¿½ï¿½×ªÎªNaNï¿½ï¿½NaNï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÎºÎ£ï¿½Ò²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô¼ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½Í¶ï¿½ï¿½ï¿½È½Ïµï¿½ï¿½Ç¿Õ¼ï¿½ï¿½Ö·
+ï¿½ï¿½ï¿½Öºï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í±È½Ï£ï¿½ï¿½ï¿½tostring×ªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½number×ªï¿½ï¿½ï¿½ï¿½ï¿½Ù¾Í±È½ï¿½
 [] == []//false
-Á½¸ö×Ö·û´®±È½ÏµÄÊÇUnicode±àÂë¡£
+ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½È½Ïµï¿½ï¿½ï¿½Unicodeï¿½ï¿½ï¿½ë¡£
 html = html + <span></span>
 html +=<span></span>
-ÉÏÃæÕâÁ½¸öÐ´·¨ÊÇÏëµÈµÄ
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Èµï¿½
 
-*µ¥¸öµÈºÅ´ú±íÈ«µÈ£º===    £¨±È½ÏµÄÊÇÖµºÍÀàÐÍ£©ÑÏ½÷
+*ï¿½ï¿½ï¿½ï¿½ï¿½ÈºÅ´ï¿½ï¿½ï¿½È«ï¿½È£ï¿½===    ï¿½ï¿½ï¿½È½Ïµï¿½ï¿½ï¿½Öµï¿½ï¿½ï¿½ï¿½ï¿½Í£ï¿½ï¿½Ï½ï¿½
 
 
-Âß¼­ÔËËã·û£º
-&&²¢ÇÒ £º ¹ØÁªµÄÁ½¸öÌõ¼þ¶¼ÊÇtrue,½á¹ûÊÇtrue£¬·ñÔòfalse
-£¨Ç°±ß³ÉÁ¢¸øºó±ß£¬Ç°±ß²»³ÉÂ·¸øÇ°±ß£©
-|| »òÕß £º ¹ØÁªµÄÁ½¸öÌõ¼þÖ»ÒªÓÐÒ»¸öÊÇtrue£¬½á¹ûÊÇtrue £¬·ñÔò			  Á½¸ö¶¼ÊÇfalse²ÅÊÇfalse¡£
-£¨Ç°±ß³ÉÁ¢¸øÇ°±ß£¬Ç°±ß²»³ÉÁ¢¸øºó±ß£©
-ÈýÄ¿ÔËËã·û£º
-Ò»Ä¿ Ò»¸öÔËËã·ûÁ¬½ÓµÄÒ»¸öÊý¾Ý £¡false  ++  --
-¶þÄ¿ Ò»¸öÔËËã·ûÁ¬½ÓµÄÁ½¸öÊý¾Ý  =  +  -....
-ÈýÄ¿ Á½¸öÔËËã·ûÁ¬½ÓµÄÈý¸öÊý¾Ý  £¿ £º
-Ìõ¼þ±í´ïÊ½   £¿ ±í´ïÊ½1   £º±í´ïÊ½2
-Èç¹ûÌõ¼þ±í´ïÊ½Îªtrue,Ö´ÐÐ±í´ïÊ½1
-Èç¹ûÌõ¼þ±í´ïÊ½Îªfalse,Ö´ÐÐ±í´ïÊ½2
+ï¿½ß¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+&&ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½true,ï¿½ï¿½ï¿½ï¿½ï¿½trueï¿½ï¿½ï¿½ï¿½ï¿½ï¿½false
+ï¿½ï¿½Ç°ï¿½ß³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ß£ï¿½Ç°ï¿½ß²ï¿½ï¿½ï¿½Â·ï¿½ï¿½Ç°ï¿½ß£ï¿½
+|| ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö»Òªï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½trueï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½true ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½			  ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½falseï¿½ï¿½ï¿½ï¿½falseï¿½ï¿½
+ï¿½ï¿½Ç°ï¿½ß³ï¿½ï¿½ï¿½ï¿½ï¿½Ç°ï¿½ß£ï¿½Ç°ï¿½ß²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ß£ï¿½
+ï¿½ï¿½Ä¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+Ò»Ä¿ Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Óµï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½false  ++  --
+ï¿½ï¿½Ä¿ Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Óµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½  =  +  -....
+ï¿½ï¿½Ä¿ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Óµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½  ï¿½ï¿½ ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê½   ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ê½1   ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê½2
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê½Îªtrue,Ö´ï¿½Ð±ï¿½ï¿½ï¿½Ê½1
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê½Îªfalse,Ö´ï¿½Ð±ï¿½ï¿½ï¿½Ê½2
 
-Ñ­»·£º
-Ñ­»·¾ÍÊÇÒ»±éÒ»±éÖ´ÐÐÏàÍ¬»òÏàËÆµÄ´úÂë
-Ñ­»·µÄÁ½¸öÒªËØ£º
-Ñ­»·µÄÌõ¼þ£º¿ØÖÆÑ­»·µÄ´ÎÊý
-Ñ­»·Ìå:·´¸´Ö´ÐÐÏàÍ¬»òÏàËÆµÄ´úÂë
+Ñ­ï¿½ï¿½ï¿½ï¿½
+Ñ­ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½Ò»ï¿½ï¿½Ö´ï¿½ï¿½ï¿½ï¿½Í¬ï¿½ï¿½ï¿½ï¿½ï¿½ÆµÄ´ï¿½ï¿½ï¿½
+Ñ­ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Òªï¿½Ø£ï¿½
+Ñ­ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ­ï¿½ï¿½ï¿½Ä´ï¿½ï¿½ï¿½
+Ñ­ï¿½ï¿½ï¿½ï¿½:ï¿½ï¿½ï¿½ï¿½Ö´ï¿½ï¿½ï¿½ï¿½Í¬ï¿½ï¿½ï¿½ï¿½ï¿½ÆµÄ´ï¿½ï¿½ï¿½
 
-1.whileÑ­»·
-while(Ñ­»·Ìõ¼þ){//²»ÖªÏþÌõ¼þ
- Ñ­»·Ìå;
+1.whileÑ­ï¿½ï¿½
+while(Ñ­ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½){//ï¿½ï¿½Öªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ Ñ­ï¿½ï¿½ï¿½ï¿½;
 }
 
 2.break
-ÔÚÑ­»·ÖÐ£¬¿ÉÒÔÊ¹ÓÃbreakÇ¿ÖÆ½áÊøÈÎºÎÐÎÊ½Ñ­»·
+ï¿½ï¿½Ñ­ï¿½ï¿½ï¿½Ð£ï¿½ï¿½ï¿½ï¿½ï¿½Ê¹ï¿½ï¿½breakÇ¿ï¿½Æ½ï¿½ï¿½ï¿½ï¿½Îºï¿½ï¿½ï¿½Ê½Ñ­ï¿½ï¿½
 
-3.do-whileÑ­»·
+3.do-whileÑ­ï¿½ï¿½
 do{
- Ñ­»·Ìå
-}while(Ñ­»·Ìõ¼þ);
+ Ñ­ï¿½ï¿½ï¿½ï¿½
+}while(Ñ­ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½);
 
 
 
 
-4.forÑ­»·
-for(±í´ïÊ½1;±í´ïÊ½2;±í´ïÊ½3){
-  Ñ­»·Ìå4£»}
-±í´ïÊ½1£º³õÊ¼Öµ£¨Ö´ÐÐÒ»´Î£©
-±í´ïÊ½2£ºÑ­»·Ìõ¼þ
-±í´ïÊ½3£ºÔöÁ¿£¨×ÔÔö»ò×Ô¼õ£©
-Ö´ÐÐË³Ðò²½Öè£º1243
-´òÓ¡1~50Ö®¼äËùÓÐµÄÆæÊý£º
+4.forÑ­ï¿½ï¿½
+for(ï¿½ï¿½ï¿½ï¿½Ê½1;ï¿½ï¿½ï¿½ï¿½Ê½2;ï¿½ï¿½ï¿½ï¿½Ê½3){
+  Ñ­ï¿½ï¿½ï¿½ï¿½4ï¿½ï¿½}
+ï¿½ï¿½ï¿½ï¿½Ê½1ï¿½ï¿½ï¿½ï¿½Ê¼Öµï¿½ï¿½Ö´ï¿½ï¿½Ò»ï¿½Î£ï¿½
+ï¿½ï¿½ï¿½ï¿½Ê½2ï¿½ï¿½Ñ­ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½Ê½3ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô¼ï¿½ï¿½ï¿½
+Ö´ï¿½ï¿½Ë³ï¿½ï¿½ï¿½è£º1243
+ï¿½ï¿½Ó¡1~50Ö®ï¿½ï¿½ï¿½ï¿½ï¿½Ðµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 for(var i=1;i<=50;i++){
  if(i%2===1){
  console.log(i);
  }
 
-¾Å¾ÅËã·¨±í£º
+ï¿½Å¾ï¿½ï¿½ã·¨ï¿½ï¿½ï¿½ï¿½
 for(let i=1;i<=9;i++){
 for(let j=1;j<=9;j++){
 console.log(`${i}*${j}=${i*j}`);
@@ -261,8 +261,8 @@ console.log(`${i}*${j}=${i*j}`);
 
 
 
-forÑ­»·ÖÐ
- Ìø¹ý£ºcontinueÄ³¸öÌõ¼þ³ÉÁ¢¾ÍÌø¹ýÑ­»·£¬½Ó×Å					  ½øÐÐÏÂ´ÎÑ­»·
+forÑ­ï¿½ï¿½ï¿½ï¿½
+ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½continueÄ³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ­ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½					  ï¿½ï¿½ï¿½ï¿½ï¿½Â´ï¿½Ñ­ï¿½ï¿½
 for(var?i=1;i<=5;i++){
 ????if(i===3){
 ????continue;
@@ -270,7 +270,7 @@ for(var?i=1;i<=5;i++){
 ????console.log(i);//1245
 ???}
 
-Ìø³ö£ºbreakÄ³¸öÌõ¼þ³ÉÁ¢µÄÊ±ºò£¬Ìø³öÑ­»·Ìå,ÖÐ¶ÏºóÃæµÄÑ­»·
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½breakÄ³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ­ï¿½ï¿½ï¿½ï¿½,ï¿½Ð¶Ïºï¿½ï¿½ï¿½ï¿½Ñ­ï¿½ï¿½
 for(var?i=1;i<=5;i++){
 ????if(i===3){
 ????????break;
@@ -280,37 +280,37 @@ for(var?i=1;i<=5;i++){
 ???console.log(i);//3
 
 
-Êý¾Ý¼ì²â£º
-###   Typeof£º×¨ÃÅÓÃÀ´¼ì²âÒ»¸öÊý¾ÝÀàÐÍÊÇ²»ÊÇ¶ÔÏó£»·µ»ØµÄ½á¹ûÊÇÒ»¸öÐ¡Ð´µÄ£¨×Ö·û´®£©ÀàÐÍÖµ¡£
-ÅÐ¶ÏÐÎÊ½£ºconsole.log(typeof new Data());//object
-¼ì²â null£¬·µ»Øobject
-»¹¿ÉÒÔ¼ì²âº¯Êýconsole.log(fn);//¡®function¡¯
-###  Instanceof :¶þÔªÔËËã·û£¬ÓÃÀ´ÅÐ¶Ï×óÖ§ÊÇ²»ÊÇÓÒÖ§¹¹Ôì³öÀ´µÄ
+ï¿½ï¿½ï¿½Ý¼ï¿½â£º
+###   Typeofï¿½ï¿½×¨ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç²ï¿½ï¿½Ç¶ï¿½ï¿½ó£»·ï¿½ï¿½ØµÄ½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½Ð¡Ð´ï¿½Ä£ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Öµï¿½ï¿½
+ï¿½Ð¶ï¿½ï¿½ï¿½Ê½ï¿½ï¿½console.log(typeof new Data());//object
+ï¿½ï¿½ï¿½ nullï¿½ï¿½ï¿½ï¿½ï¿½ï¿½object
+ï¿½ï¿½ï¿½ï¿½ï¿½Ô¼ï¿½âº¯ï¿½ï¿½console.log(fn);//ï¿½ï¿½functionï¿½ï¿½
+###  Instanceof :ï¿½ï¿½Ôªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð¶ï¿½ï¿½ï¿½Ö§ï¿½Ç²ï¿½ï¿½ï¿½ï¿½ï¿½Ö§ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 Lei ary = [];
 console.long(ary instanceof Array);//true
-###  ObjectµÄtoString£º
-Object.prototype.toString.call(ary)===¡¯[Object.Array]¡¯;//true
+###  Objectï¿½ï¿½toStringï¿½ï¿½
+Object.prototype.toString.call(ary)===ï¿½ï¿½[Object.Array]ï¿½ï¿½;//true
 ### [].constructor === Array
 
 
-ÃæÊÔÌâ£º
+ï¿½ï¿½ï¿½ï¿½ï¿½â£º
 Let a = 10;
-console.log(a++  ==  ++a);//Ç°ÃæÊÇ10£¬ºóÃæÊÇ12 false
-ÆäÊµÊÇaºÍ£¨++ == ++a£©µÄ±È½Ï10+1=11++a=11+1=12;´Ó×óÍùÓÒÔËËã
-console.log( ++a == a++);//Ç°ÃæÊÇ11 ºóÃæÒ²ÊÇ11 true£¨Ç°Ãæa=11Ö±½Ó¸¶¸øÓÒ±ßµÄa£©
+console.log(a++  ==  ++a);//Ç°ï¿½ï¿½ï¿½ï¿½10ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½12 false
+ï¿½ï¿½Êµï¿½ï¿½aï¿½Í£ï¿½++ == ++aï¿½ï¿½ï¿½Ä±È½ï¿½10+1=11++a=11+1=12;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+console.log( ++a == a++);//Ç°ï¿½ï¿½ï¿½ï¿½11 ï¿½ï¿½ï¿½ï¿½Ò²ï¿½ï¿½11 trueï¿½ï¿½Ç°ï¿½ï¿½a=11Ö±ï¿½Ó¸ï¿½ï¿½ï¿½ï¿½Ò±ßµï¿½aï¿½ï¿½
 
-For in£º
-in£ºÔËËã·û£ºÔËËã¶ÔÏóÊÇ·ñÓÐÄ³¸öÊôÐÔ¡£
+For inï¿½ï¿½
+inï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç·ï¿½ï¿½ï¿½Ä³ï¿½ï¿½ï¿½ï¿½ï¿½Ô¡ï¿½
 let?obj?=?{
-????name:'ÖìÒÝ±ù',
+????name:'ï¿½ï¿½ï¿½Ý±ï¿½',
 ????age:30,
-????job:'Ç°¶Ë¿ª·¢'
+????job:'Ç°ï¿½Ë¿ï¿½ï¿½ï¿½'
 }
-console.log(¡®age¡¯ in obj);
-for in:ÉÏµÄ±äÁ¿¾ÍÊÇÃ¿¸öÊôÐÔµÄÃû£»
-»áÃ¶¾Ù¶ÔÏóµÄÖµ¡£
+console.log(ï¿½ï¿½ageï¿½ï¿½ in obj);
+for in:ï¿½ÏµÄ±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã¿ï¿½ï¿½ï¿½ï¿½ï¿½Ôµï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½Ã¶ï¿½Ù¶ï¿½ï¿½ï¿½ï¿½Öµï¿½ï¿½
 
-ÀýÌâ£º
+ï¿½ï¿½ï¿½â£º
 let?obj?=?{
 ????width:'100px',
 ????height:'100px',
@@ -323,53 +323,53 @@ for(var?attr?in?obj){
 //????box.style.height?=?obj.height;
 //????box.style.background?=?obj.background;
 //????box.style.border?=?obj.border;
-???console.log(attr);//´òÓ¡³öwidth?height?background?border?
-???box.style[attr]=obj[attr];//box.styleºóÃæµÄµã.¿ÉÒÔÐ´³Ébox.style[attr];Í¬Ñùobj.width...ÆäÓàØí¸öÒ²¿ÉÒÔÐ´³Éobj[attr];
+???console.log(attr);//ï¿½ï¿½Ó¡ï¿½ï¿½width?height?background?border?
+???box.style[attr]=obj[attr];//box.styleï¿½ï¿½ï¿½ï¿½Äµï¿½.ï¿½ï¿½ï¿½ï¿½Ð´ï¿½ï¿½box.style[attr];Í¬ï¿½ï¿½obj.width...ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò²ï¿½ï¿½ï¿½ï¿½Ð´ï¿½ï¿½obj[attr];
 }
 
 
 
-º¯Êý£ºfunction
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½function
 
-1.º¯Êý¶¨Òå£º
+1.ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½å£º
 function fn(){console.log(1);}let f = fn();
-¿ª±ÙÒ»¸ö16½øÖÆµÄ¶ÑÄÚ´æ
-1.ÉùÃ÷º¯Êý£ºfunction º¯ÊýÃû(){
-  °Ñjs´úÂëµ±×ö×Ö·û´®´æ´¢
+ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½16ï¿½ï¿½ï¿½ÆµÄ¶ï¿½ï¿½Ú´ï¿½
+1.ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½function ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½(){
+  ï¿½ï¿½jsï¿½ï¿½ï¿½ëµ±ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½æ´¢
 }
-2.ÔÙ°ÑÄÚ´æµØÖ·¸³Öµ¸øº¯ÊýÃû
-2.º¯Êýµ÷ÓÃ£º
-ÐÎÊ½£ºº¯ÊýÃû+£¨£©£»
-1.¿ª±ÙÒ»¸öÖ´ÐÐÕ»
-2.ÐÎ²Î¸³Öµ
-3.°Ñº¯ÊýÌåÄÚµÄ×Ö·û´®·Åµ½Ö´ÐÐÕ»ÖÐÖ´ÐÐ£¨Ö´ÐÐÉÏÏÂÎÄ£©
-4.°Ñ±äÁ¿Ïú»Ù
+2.ï¿½Ù°ï¿½ï¿½Ú´ï¿½ï¿½Ö·ï¿½ï¿½Öµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+2.ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã£ï¿½
+ï¿½ï¿½Ê½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+1.ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½Ö´ï¿½ï¿½Õ»
+2.ï¿½Î²Î¸ï¿½Öµ
+3.ï¿½Ñºï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Úµï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½Åµï¿½Ö´ï¿½ï¿½Õ»ï¿½ï¿½Ö´ï¿½Ð£ï¿½Ö´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä£ï¿½
+4.ï¿½Ñ±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
-º¯Êý±í´ïÊ½£º
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê½ï¿½ï¿½
 Let fn = function(){console.log(1);}fn();
-Á½¸öµÄÇø±ð£ºº¯Êý¶¨ÒåµÄfn()ÔÚÍ¬×÷ÓÃÓòÄÚÖ±Ïµº¯ÊýÖÐ¶¼¿ÉÒÔ
- 	º¯Êý±í´ïÊ½µÄfn()±ØÐëÔÚ¶¨ÒåÖ®ºó²Å¿ÉÒÔÖ´ÐÐµ÷ÓÃ
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ð£ººï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½fn()ï¿½ï¿½Í¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö±Ïµï¿½ï¿½ï¿½ï¿½ï¿½Ð¶ï¿½ï¿½ï¿½ï¿½ï¿½
+ 	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê½ï¿½ï¿½fn()ï¿½ï¿½ï¿½ï¿½ï¿½Ú¶ï¿½ï¿½ï¿½Ö®ï¿½ï¿½Å¿ï¿½ï¿½ï¿½Ö´ï¿½Ðµï¿½ï¿½ï¿½
 
-ÄäÃûº¯Êý£º×ÔÖ´ÐÐ
-(function(ÐÎ²ÎÁÐ±í){
-  //º¯ÊýÌå;  ±äÁ¿ºÍº¯Êý¶¼²»ÄÜ±»Íâ²¿·ÃÎÊµ½
-})(Êµ²ÎÁÐ±í);
-
-
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö´ï¿½ï¿½
+(function(ï¿½Î²ï¿½ï¿½Ð±ï¿½){
+  //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½;  ï¿½ï¿½ï¿½ï¿½ï¿½Íºï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü±ï¿½ï¿½â²¿ï¿½ï¿½ï¿½Êµï¿½
+})(Êµï¿½ï¿½ï¿½Ð±ï¿½);
 
 
-´´½¨´øÓÐ²ÎÊýµÄº¯Êý
-function fn(a,b){//ÓÃÀ´½ÓÊÕ´«µÝµÄÊý¾Ý
- º¯ÊýÌå
+
+
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð²ï¿½ï¿½ï¿½ï¿½Äºï¿½ï¿½ï¿½
+function fn(a,b){//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Õ´ï¿½ï¿½Ýµï¿½ï¿½ï¿½ï¿½ï¿½
+ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 }
-fn(3,¡¯12¡¯);
-µ÷ÓÃ
-º¯ÊýÃû³Æ(²ÎÊýÁÐ±í)  //Êµ¼ÊÒª´«µÝµÄÊý¾Ý
-²ÎÊý£º´´½¨º¯ÊýÊ±µÄ²ÎÊý³ÆÎªÐÎ²Î(a,b)£¬µ÷ÓÃº¯ÊýÊ±µÄ²ÎÊý³ÆÎªÊµ²Î(3,¡¯12¡¯)£¨Êµ²ÎÈÎºÎÊý¾ÝÀàÐÍ¶¼¿ÉÒÔ´«£©¡£µ÷ÓÃµÄÊ±ºò»á°ÑÊµ²ÎµÄÖµ¸³¸øÐÎ²Î£¬¶à¸ö²ÎÊýÖ®¼äÓÃ¶ººÅ¸ô¿ª£¬ÐÎ²ÎºÍÊµ²ÎÒ»Ò»¶ÔÓ¦¹ØÏµ¡£²ÎÊý¿ÉÒÔÓÐ0¸ö»ò¶à¸ö¡£
-Èç¹ûÐÎ²ÎÎ´¸³Öµ£¨Êµ²ÎÃ»ÓÐ´«Öµ£©£¬ÔòÎªunderfined
+fn(3,ï¿½ï¿½12ï¿½ï¿½);
+ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½ï¿½ï¿½ï¿½Ð±ï¿½)  //Êµï¿½ï¿½Òªï¿½ï¿½ï¿½Ýµï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê±ï¿½Ä²ï¿½ï¿½ï¿½ï¿½ï¿½Îªï¿½Î²ï¿½(a,b)ï¿½ï¿½ï¿½ï¿½ï¿½Ãºï¿½ï¿½ï¿½Ê±ï¿½Ä²ï¿½ï¿½ï¿½ï¿½ï¿½ÎªÊµï¿½ï¿½(3,ï¿½ï¿½12ï¿½ï¿½)ï¿½ï¿½Êµï¿½ï¿½ï¿½Îºï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í¶ï¿½ï¿½ï¿½ï¿½Ô´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ãµï¿½Ê±ï¿½ï¿½ï¿½ï¿½Êµï¿½Îµï¿½Öµï¿½ï¿½ï¿½ï¿½ï¿½Î²Î£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö®ï¿½ï¿½ï¿½Ã¶ï¿½ï¿½Å¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î²Îºï¿½Êµï¿½ï¿½Ò»Ò»ï¿½ï¿½Ó¦ï¿½ï¿½Ïµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½0ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½Î²ï¿½Î´ï¿½ï¿½Öµï¿½ï¿½Êµï¿½ï¿½Ã»ï¿½Ð´ï¿½Öµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îªunderfined
 function fn(a,b){}
 fn(1);//1 undefined
-³£ÓÃº¯Êýµ÷ÓÃÀý×Ó£º
+ï¿½ï¿½ï¿½Ãºï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ó£ï¿½
 function fn(obj){
 obj.callback();
 }
@@ -379,7 +379,7 @@ alert(1);
 }
 })
 
-arguments:ÀàÊý×é£¬´ú±íÊµ²ÎµÄ¼¯ºÏ
+arguments:ï¿½ï¿½ï¿½ï¿½ï¿½é£¬ï¿½ï¿½ï¿½ï¿½Êµï¿½ÎµÄ¼ï¿½ï¿½ï¿½
 function fn(a,b){
 console.log(b)//2
 arguments[0]=3;
@@ -387,161 +387,161 @@ console.log(b)//3
 }
 fn(1,2)
 
-ES6£ºÊ¹ÓÃ...´úÌæÁËarguments£¬½ÐÊ£ÓàÔËËã·û
+ES6ï¿½ï¿½Ê¹ï¿½ï¿½...ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½argumentsï¿½ï¿½ï¿½ï¿½Ê£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 function fn(a,...arg){
 Console.log(a,arg);//12345
 }
-fn(1,2,3,4,5);aÆäÊµÒ²¿ÉÒÔÖ±½Ó²»Ð´£¨...arg£©
+fn(1,2,3,4,5);aï¿½ï¿½ÊµÒ²ï¿½ï¿½ï¿½ï¿½Ö±ï¿½Ó²ï¿½Ð´ï¿½ï¿½...argï¿½ï¿½
 
-return: º¯Êý·µ»ØÖµ£¨Ä¬ÈÏµÄÊÇundefined£©
-ÓÃÒ»¸ö±äÁ¿È¥½ÓÊÕ º¯ÊýÃû+()£»±äÁ¿´æ´¢µÄ¾ÍÊÇº¯Êý·µ»ØÖµ
-º¯ÊýÖµreturn·µ»ØµÄÊÇÊ²Ã´£¬´òÓ¡³öÕâ¸ö±äÁ¿¾ÍÊÇÊ²Ã´
+return: ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Öµï¿½ï¿½Ä¬ï¿½Ïµï¿½ï¿½ï¿½undefinedï¿½ï¿½
+ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È¥ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½+()ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½æ´¢ï¿½Ä¾ï¿½ï¿½Çºï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Öµ
+ï¿½ï¿½ï¿½ï¿½Öµreturnï¿½ï¿½ï¿½Øµï¿½ï¿½ï¿½Ê²Ã´ï¿½ï¿½ï¿½ï¿½Ó¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê²Ã´
 function fn(a,b){
-console.log(a+b);//´òÓ¡½á¹û3
+console.log(a+b);//ï¿½ï¿½Ó¡ï¿½ï¿½ï¿½3
 return function(){
 console.log(5)
 }
 }
 Let y = fn(1,2);
-console.log(y);//½á¹ûÊÇ£ºfunction(){console.log(5)}
+console.log(y);//ï¿½ï¿½ï¿½ï¿½Ç£ï¿½function(){console.log(5)}
 
-Ïë·ÃÎÊº¯ÊýÄÚ²¿µÄÖµµÄ°ì·¨£¿£¿
-1.ÓÃÒ»¸ö±äÁ¿½ÓÊÕº¯ÊýµÄ·µ»ØÖµ
-2.Ö±½Óconsole´òÓ¡³öº¯ÊýÖ´ÐÐconsole.log(fn());
-window.alert=function(){} alert();Ã»ÓÐreturn·µ»ØÖµ¡£
-alert(alert(1));//ÏÈ1ºóundefined
+ï¿½ï¿½ï¿½ï¿½Êºï¿½ï¿½ï¿½ï¿½Ú²ï¿½ï¿½ï¿½Öµï¿½Ä°ì·¨ï¿½ï¿½ï¿½ï¿½
+1.ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Õºï¿½ï¿½ï¿½ï¿½Ä·ï¿½ï¿½ï¿½Öµ
+2.Ö±ï¿½ï¿½consoleï¿½ï¿½Ó¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö´ï¿½ï¿½console.log(fn());
+window.alert=function(){} alert();Ã»ï¿½ï¿½returnï¿½ï¿½ï¿½ï¿½Öµï¿½ï¿½
+alert(alert(1));//ï¿½ï¿½1ï¿½ï¿½undefined
 
-Ê²Ã´Ê±ºòÓÃreturn£¿£¿
-º¯Êý£ºÎªÁË¸´ÓÃ
-º¯ÊýÀïreturn³öÏÖºó£¬ºóÐø´úÂë²»»áÔÙÖ´ÐÐ¡£
-1.°Ñº¯ÊýÄÚµÄÔËËã½á¹ûÄÃµ½º¯ÊýÍâÃæÊ¹ÓÃ¡£
-2.ÔÚº¯ÊýÖÐ¿ÉÒÔÊ¹ÓÃreturnÖÕÖ¹ºóÃæµÄ´úÂë¡£
-£¨µ±Ä³¸öÌõ¼þ³ÉÁ¢£¬²»ÔÙÖ´ÐÐÏÂÃæµÄ´úÂë£©
+Ê²Ã´Ê±ï¿½ï¿½ï¿½ï¿½returnï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îªï¿½Ë¸ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½returnï¿½ï¿½ï¿½Öºó£¬ºï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ë²»ï¿½ï¿½ï¿½ï¿½Ö´ï¿½Ð¡ï¿½
+1.ï¿½Ñºï¿½ï¿½ï¿½ï¿½Úµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ãµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¹ï¿½Ã¡ï¿½
+2.ï¿½Úºï¿½ï¿½ï¿½ï¿½Ð¿ï¿½ï¿½ï¿½Ê¹ï¿½ï¿½returnï¿½ï¿½Ö¹ï¿½ï¿½ï¿½ï¿½Ä´ï¿½ï¿½ë¡£
+ï¿½ï¿½ï¿½ï¿½Ä³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä´ï¿½ï¿½ë£©
 
 
-»ñÈ¡£º
-document.querySelectorAll(¡®li¡¯);»ñÈ¡µÄÊÇÒ»¸ö¼¯ºÏ£¬Ïëµ¥¸ö»ñÈ¡Òª¼ÓÏÂ±ê
+ï¿½ï¿½È¡ï¿½ï¿½
+document.querySelectorAll(ï¿½ï¿½liï¿½ï¿½);ï¿½ï¿½È¡ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½Ï£ï¿½ï¿½ëµ¥ï¿½ï¿½ï¿½ï¿½È¡Òªï¿½ï¿½ï¿½Â±ï¿½
 
-×Ô¶¨ÒåÊôÐÔ£º¸øÒýÓÃÀàÐÍÌí¼ÓÒ»¸ö±êÊ¶£¬Ò»Ò»¶ÔÓ¦µÄÊ±ºò£¬ÒªÊ×ÏÈ¿¼				ÂÇ×Ô¶¨ÒåÊôÐÔ
+ï¿½Ô¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½Ê¶ï¿½ï¿½Ò»Ò»ï¿½ï¿½Ó¦ï¿½ï¿½Ê±ï¿½ï¿½Òªï¿½ï¿½ï¿½È¿ï¿½				ï¿½ï¿½ï¿½Ô¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 Box[i].index = i;
-±äÁ¿£ºlet a = 10;a¾ÍÊÇÒ»¸ö±äÁ¿
-ÊôÐÔ£ºobj.a =10;a¾ÍÊÇobjectµÄÒ»¸öÊôÐÔ
-ºÃ´¦£º1.Ã¿¸öÔªËØ»ò¶ÔÏó¶¼ÓÐÒ»¸öÏàÍ¬Ãû×ÖµÄÊôÐÔ£¬µ«ÊÇ»¥Ïà²»¸ÉÈÅ£¬2.´æÖµ
-const box = document.getElementById(¡®box¡¯);//´úÂë¿é»º´æ
-//»ùÓÚboxÏÂµÄTXT
-const txt = box.query.Selector(¡®.txt¡¯);
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½let a = 10;aï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½Ô£ï¿½obj.a =10;aï¿½ï¿½ï¿½ï¿½objectï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½Ã´ï¿½ï¿½ï¿½1.Ã¿ï¿½ï¿½Ôªï¿½Ø»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½Í¬ï¿½ï¿½ï¿½Öµï¿½ï¿½ï¿½ï¿½Ô£ï¿½ï¿½ï¿½ï¿½Ç»ï¿½ï¿½à²»ï¿½ï¿½ï¿½Å£ï¿½2.ï¿½ï¿½Öµ
+const box = document.getElementById(ï¿½ï¿½boxï¿½ï¿½);//ï¿½ï¿½ï¿½ï¿½é»ºï¿½ï¿½
+//ï¿½ï¿½ï¿½ï¿½boxï¿½Âµï¿½TXT
+const txt = box.query.Selector(ï¿½ï¿½.txtï¿½ï¿½);
 
 
 
 Url :
-Ð­Òé :https
-ÓòÃû :baidu (IPµÄ±ðÃû)
-¶Ë¿ÚºÅ  £ºÌá¹©²»Í¬·þÎñµÄ¡®ÃÅÅÆµØÖ·¡¯
-²éÑ¯ÐÅÏ¢ £ºÎÊºÅµ½¾®ºÅÖ®¼äµÄÄÚÈÝkey = val&key2=val2...
-hashÐÅÏ¢:¾®ºÅÖ®ºóµÄÄÚÈÝ
+Ð­ï¿½ï¿½ :https
+ï¿½ï¿½ï¿½ï¿½ :baidu (IPï¿½Ä±ï¿½ï¿½ï¿½)
+ï¿½Ë¿Úºï¿½  ï¿½ï¿½ï¿½á¹©ï¿½ï¿½Í¬ï¿½ï¿½ï¿½ï¿½Ä¡ï¿½ï¿½ï¿½ï¿½Æµï¿½Ö·ï¿½ï¿½
+ï¿½ï¿½Ñ¯ï¿½ï¿½Ï¢ ï¿½ï¿½ï¿½ÊºÅµï¿½ï¿½ï¿½ï¿½ï¿½Ö®ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½key = val&key2=val2...
+hashï¿½ï¿½Ï¢:ï¿½ï¿½ï¿½ï¿½Ö®ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
 
 
 
 
 
-Êý×é¶ÔÏó£ºArray
-Êý×é×ÖÃæÁ¿£º[ÔªËØÒ»£¬ÔªËØ¶þ] 
-Êý×é¹¹Ôì£ºnew Array(4);           
-¶¯Ì¬·½·¨£ºÊµÀýÉÏµÄ¿ÉÒÔµ÷ÓÃµÄ·½·¨£º
-Push()·½·¨£º¹«Ê½£ºÊý×é.push(Êý¾Ý£¬Êý¾Ý);Êý¾Ý¿ÉÒÔÊÇÊý×é»ò¶ÔÏó
-ÔÚÊý×éµÄ×îºóÒ»Î»Ìí¼ÓÒ»¸ö»ò¶à¸öÊý¾Ý
-£¨·µ»ØÖµÊÇÐÂÊý×éµÄ³¤¶È£¬Ô­Êý×é»á¸Ä±ä£©
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Array
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[Ôªï¿½ï¿½Ò»ï¿½ï¿½Ôªï¿½Ø¶ï¿½] 
+ï¿½ï¿½ï¿½é¹¹ï¿½ì£ºnew Array(4);           
+ï¿½ï¿½Ì¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Êµï¿½ï¿½ï¿½ÏµÄ¿ï¿½ï¿½Ôµï¿½ï¿½ÃµÄ·ï¿½ï¿½ï¿½ï¿½ï¿½
+Push()ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.push(ï¿½ï¿½ï¿½Ý£ï¿½ï¿½ï¿½ï¿½ï¿½);ï¿½ï¿½ï¿½Ý¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»Î»ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Öµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä³ï¿½ï¿½È£ï¿½Ô­ï¿½ï¿½ï¿½ï¿½ï¿½Ä±ä£©
 var?ary?=?[1,2,3];
 console.log(ary.push(4,5,{a:1,b:2},[4,5]));//7
-console.log(ary);//(7)?[1,?2,?3,?4,?5,?{¡­},?Array(2)]
+console.log(ary);//(7)?[1,?2,?3,?4,?5,?{ï¿½ï¿½},?Array(2)]
 let ary=[1,2];
-console.log(ary.push(4,5,6,ary.shift(4,5)));//·µ»ØÖµÊÇÒ»¸ö³¤¶ÈÊý×Ö
-ary.shift(4,5)://·µ»ØµÄÊÇÉ¾³ýµÄÊý×éµÄ³¤¶ÈÊÇ£º1
-±äÎª£ºconsole.log(ary.push(4,5,6,1));
-ÔÚÌí¼Óµ½Êý×é£¬ËùÒÔ³¤¶È¾ÍÊÇ5
-console.log(ary);//·µ»ØµÄÊÇÒ»¸öÐÂÊý×é¡££º¡¾2,4,5,6,1¡¿
+console.log(ary.push(4,5,6,ary.shift(4,5)));//ï¿½ï¿½ï¿½ï¿½Öµï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ary.shift(4,5)://ï¿½ï¿½ï¿½Øµï¿½ï¿½ï¿½É¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä³ï¿½ï¿½ï¿½ï¿½Ç£ï¿½1
+ï¿½ï¿½Îªï¿½ï¿½console.log(ary.push(4,5,6,1));
+ï¿½ï¿½ï¿½ï¿½ï¿½Óµï¿½ï¿½ï¿½ï¿½é£¬ï¿½ï¿½ï¿½Ô³ï¿½ï¿½È¾ï¿½ï¿½ï¿½5
+console.log(ary);//ï¿½ï¿½ï¿½Øµï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½é¡£ï¿½ï¿½ï¿½ï¿½2,4,5,6,1ï¿½ï¿½
 
-Pop()·½·¨£º¹«Ê½£ºÊý×é.pop();
-É¾³ýÊý×éµÄ×îºóÒ»Î»Êý¾Ý
-£¨·µ»ØÖµÊÇÉ¾³ýµÄÊý¾Ý£¬Ô­Êý×é»á¸Ä±ä£©
+Pop()ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.pop();
+É¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»Î»ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Öµï¿½ï¿½É¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý£ï¿½Ô­ï¿½ï¿½ï¿½ï¿½ï¿½Ä±ä£©
 let?ary?=?[1,2,3,[4],{a:1,b:2}];
 console.log(ary.pop());//{a: 1, b: 2}
 console.log(ary);//?[1,?2,?3,?Array(1)]
 
-Unshift()·½·¨£ºÔÚÊý×éµÄÇ°ÃæÌí¼ÓÒ»¸ö»ò¶à¸öÊý¾Ý
-£¨·µ»ØÖµÊÇÐÂÊý×éµÄ³¤¶È£¬Ô­Êý×é»á¸Ä±ä£©
+Unshift()ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Öµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä³ï¿½ï¿½È£ï¿½Ô­ï¿½ï¿½ï¿½ï¿½ï¿½Ä±ä£©
 let?ary?=?[1,2,3];
 console.log(ary.unshift(4,5,[6],{a:7}));//7
-console.log(ary);//(7)?[4,?5,?Array(1),?{¡­},?1,?2,?3]
+console.log(ary);//(7)?[4,?5,?Array(1),?{ï¿½ï¿½},?1,?2,?3]
 
-Shift()·½·¨£ºÉ¾³ýÊý×é×îÇ°ÃæµÚÒ»Î»
-£¨·µ»ØÖµÊÇÉ¾³ýµÄÊý¾Ý£¬Ô­Êý×é»á¸Ä±ä£©
+Shift()ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç°ï¿½ï¿½ï¿½Ò»Î»
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Öµï¿½ï¿½É¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý£ï¿½Ô­ï¿½ï¿½ï¿½ï¿½ï¿½Ä±ä£©
 let?ary?=?[1,2,3,4,5];
 console.log(ary.shift());//1
 console.log(ary);//(4)?[2,?3,?4,?5]
-***Ö»ÒªÊÇº¯ÊýÃû+()£»¾Í»á»ñÈ¡Õâ¸ö·½·¨£¨º¯Êý£©µÄ·µ»ØÖµ¡£
-***·½·¨µÄÑ§Ï°£º1¸ÉÂïÓÃµÄ£¿2·Å¼¸¸ö²ÎÊý£¿13·µ»ØÖµ£¿
-4ÈçºÎÔËÓÃ£¿5Ô­ÀíÊÇÊ²Ã´£¿
-Cancat()·½·¨
-Á¬½ÓÒ»¸ö»ò¶à¸öÊý×é£¬Èç¹ûÃ»ÓÐ´«Èë²ÎÊý=¿½±´Ò»·ÝÔ­Êý×é
-£¨·µ»ØÖµÊÇÒ»¸öÐÂÊý×é£¬Ô­Êý×é²»»á¸Ä±ä£©
+***Ö»Òªï¿½Çºï¿½ï¿½ï¿½ï¿½ï¿½+()ï¿½ï¿½ï¿½Í»ï¿½ï¿½È¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä·ï¿½ï¿½ï¿½Öµï¿½ï¿½
+***ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ§Ï°ï¿½ï¿½1ï¿½ï¿½ï¿½ï¿½ï¿½ÃµÄ£ï¿½2ï¿½Å¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½13ï¿½ï¿½ï¿½ï¿½Öµï¿½ï¿½
+4ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã£ï¿½5Ô­ï¿½ï¿½ï¿½ï¿½Ê²Ã´ï¿½ï¿½
+Cancat()ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½é£¬ï¿½ï¿½ï¿½Ã»ï¿½Ð´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½=ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½Ô­ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Öµï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½é£¬Ô­ï¿½ï¿½ï¿½é²»ï¿½ï¿½Ä±ä£©
 let ary = [1,3]
-let ary3 =ary.cancat();//Ç³¿½±´ÁËÒ»·Ý£¬¸´ÖÆÁËÒ»¸öÐÂµØÖ·¡¢
+let ary3 =ary.cancat();//Ç³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½Ý£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½Âµï¿½Ö·ï¿½ï¿½
 console.log(ary3 ==ary);//false
 
-Every()·½·¨£º
-£¨Ö»ÓÐÒ»¸ö²ÎÊý¾ÍÊÇ»Øµ÷º¯Êý£¬»Øµ÷º¯ÊýÓÖÓÐÈý¸ö²ÎÊý£©
-²é¿´Êý×éÖÐµÄÃ¿¸öÊý¾ÝÊÇ·ñÎªÖ¸¶¨Ìõ¼þµÄÊý¾Ý£¬Èç¹û¶¼ÊÇ£¬½á¹ûÎªtrue£¬Èç¹ûÓÐÒ»¸ö²»ÊÇ£¬½á¹ûÎªfalse¡£
-returnÊÇ±ØÐëµÄÌõ¼þ.
+Every()ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½Ö»ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç»Øµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Øµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½é¿´ï¿½ï¿½ï¿½ï¿½ï¿½Ðµï¿½Ã¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç·ï¿½ÎªÖ¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç£ï¿½ï¿½ï¿½ï¿½Îªtrueï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½Ç£ï¿½ï¿½ï¿½ï¿½Îªfalseï¿½ï¿½
+returnï¿½Ç±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
 Let ary=[true,true,fasle];
 Let b=ary.every(function(item,index,all){
 console.log(item,index,all);
-//itemÊÇÊý×éµÄÃ¿Ò»Ïî£¬indexÊÇÕâÏîÊý¾ÝµÄË÷Òý£¬
+//itemï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã¿Ò»ï¿½î£¬indexï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ýµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 return item==true;
 })  console.log(b);
 
 
-forEach()·½·¨£ºÑ­»·Êý×é
-£¨²ÎÊýÓÐÁ½¸ö£¬callbackÓÖÓÐÈý¸ö£©£ºforEach(callback£¬ÐÞ¸ÄµÄthisÖ¸Ïò)£º£¨return ·µ»ØÖµÊÇundefined£©£º
-£¨Ô­Êý×éÖµ²»¸Ä±ä£©
-callback(item,index,all);//itemÊý×éÃ¿Ò»Ïî
+forEach()ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ­ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½callbackï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½forEach(callbackï¿½ï¿½ï¿½Þ¸Äµï¿½thisÖ¸ï¿½ï¿½)ï¿½ï¿½ï¿½ï¿½return ï¿½ï¿½ï¿½ï¿½Öµï¿½ï¿½undefinedï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½Ô­ï¿½ï¿½ï¿½ï¿½Öµï¿½ï¿½ï¿½Ä±ä£©
+callback(item,index,all);//itemï¿½ï¿½ï¿½ï¿½Ã¿Ò»ï¿½ï¿½
 Let arr = [1,2,3,4];
 arr.forEach((item,index,all)=>{
 console.log(item,index,all);
 })
 
-Map()·½·¨£º
-Ñ­»·Êý×éµÄÃ¿Ò»Ïî£¬Ô­Êý×éµÄ³¤¶ÈÓëÐÂÊý×é³¤¶ÈÒ»ÖÂ
-£¨·µ»ØÒ»¸öÐÂÊý×é£¬Ô­Êý×éÖµ¼°³¤¶È²»±ä£©
-Óï·¨£ºÁ½¸ö²ÎÊýmap(callback,ÐÞ¸Äthis Ö¸Ïò)£»
+Map()ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+Ñ­ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã¿Ò»ï¿½î£¬Ô­ï¿½ï¿½ï¿½ï¿½Ä³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½é³¤ï¿½ï¿½Ò»ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½é£¬Ô­ï¿½ï¿½ï¿½ï¿½Öµï¿½ï¿½ï¿½ï¿½ï¿½È²ï¿½ï¿½ä£©
+ï¿½ï·¨ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½map(callback,ï¿½Þ¸ï¿½this Ö¸ï¿½ï¿½)ï¿½ï¿½
 let?ary?=[1,2,3,4];
 ????????console.log(ary.map(item=>`<li>${item}</li>`));//["<li>1</li>",?"<li>2</li>",?"<li>3</li>",?"<li>4</li>"]
 ????????console.log(ary);//(4)?[1,?2,?3,?4]
 
-Reverse:·­×ªÊý×é£º
-½«Ò»¸öÊý×é´Óºóµ½Ç°·­×ª
-£¨·µ»ØÖµÊÇÐÂÊý×é£¬²¢Ô­Êý×é·¢Éú¸Ä±ä£©
+Reverse:ï¿½ï¿½×ªï¿½ï¿½ï¿½é£º
+ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Óºï¿½Ç°ï¿½ï¿½×ª
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Öµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½é£¬ï¿½ï¿½Ô­ï¿½ï¿½ï¿½é·¢ï¿½ï¿½ï¿½Ä±ä£©
 
-Join()·½·¨:Êý×éµÄ·½·¨
-Êý×é×ªÎª×Ö·û´®£¬È»ºóÓÃÀ¨ºÅÖÐµÄ²ÎÊýÆ´½Ó¡£
-£¨·µ»ØÖµÊÇ×Ö·û´®,Ô­Êý×é²»¸Ä±ä£©
-let ary=[¡®Öé¡¯,¡®·å¡¯,¡®Åà¡¯,¡®Ñµ¡¯];
-console.log(ary.join(¡®|¡¯));
+Join()ï¿½ï¿½ï¿½ï¿½:ï¿½ï¿½ï¿½ï¿½Ä·ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½×ªÎªï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½È»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÐµÄ²ï¿½ï¿½ï¿½Æ´ï¿½Ó¡ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Öµï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½,Ô­ï¿½ï¿½ï¿½é²»ï¿½Ä±ä£©
+let ary=[ï¿½ï¿½ï¿½é¡¯,ï¿½ï¿½ï¿½å¡¯,ï¿½ï¿½ï¿½à¡¯,ï¿½ï¿½Ñµï¿½ï¿½];
+console.log(ary.join(ï¿½ï¿½|ï¿½ï¿½));
 console.log(ary)
-Èç¹û²»´«Á¬½Ó²ÎÊý£¬Ä¬ÈÏÊÇ¶ººÅÁ¬½Ó¡£
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ó²ï¿½ï¿½ï¿½ï¿½ï¿½Ä¬ï¿½ï¿½ï¿½Ç¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ó¡ï¿½
 
 
-Filter()·½·¨:
-É¸Ñ¡·µ»ØÒ»×éÔÚ»Øµ÷º¯ÊýÖÐÌõ¼þ³ÉÁ¢µÄÊý¾Ý£¬¡£
-£¨·µ»ØÖµÊÇÒ»¸öÐÂÊý×é£¬Ô­Êý×é²»»á¸Ä±ä£©
+Filter()ï¿½ï¿½ï¿½ï¿½:
+É¸Ñ¡ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½Ú»Øµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý£ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Öµï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½é£¬Ô­ï¿½ï¿½ï¿½é²»ï¿½ï¿½Ä±ä£©
 let ary = [1,2,5,3,6,4,8];
 console.log(ary.filter(item=>item>=5));//(3)?[5, 6, 8]
-console.log(ary)£»//(7)?[1, 2, 5, 3, 6, 4, 8]
+console.log(ary)ï¿½ï¿½//(7)?[1, 2, 5, 3, 6, 4, 8]
 
-Some()·½·¨£º
-²é¿´Êý×éÖÐÊÇ·ñÓÐÒ»¸öÌõ¼þÊÇ·ûºÏ·µ»ØÖµµÃ£¬Ö»ÒªÓÐÒ»¸ö¾Í·µ»Øtrue£¬Ò»¸ö¶¼Ã»ÓÐ·ûºÏµÄ¾Í·µ»Øfalse¡£
-£¨·µ»ØÖµÊÇ²¼¶ûÖµ£¬Ô­Êý×é²»»á¸Ä±ä£©
+Some()ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½é¿´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç·ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç·ï¿½ï¿½Ï·ï¿½ï¿½ï¿½Öµï¿½Ã£ï¿½Ö»Òªï¿½ï¿½Ò»ï¿½ï¿½ï¿½Í·ï¿½ï¿½ï¿½trueï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½Ã»ï¿½Ð·ï¿½ï¿½ÏµÄ¾Í·ï¿½ï¿½ï¿½falseï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Öµï¿½Ç²ï¿½ï¿½ï¿½Öµï¿½ï¿½Ô­ï¿½ï¿½ï¿½é²»ï¿½ï¿½Ä±ä£©
 ?let?ary?=?[true,1,2,6];
 console.log(ary.some(item=>item?==?'7'));//false
 console.log(ary);//(4)?[true,?1,?2,?6]
@@ -551,9 +551,9 @@ console.log(ary.some(item=>item?==?'2'));//true
 console.log(ary);//(4)?[true,?1,?2,?6]
 
 
-Find()·½·¨£º
-ÕÒµ½»Øµ÷º¯ÊýÖÐ·ûºÏÌõ¼þµÄÊý¾Ý²¢·µ»ØÕâ¸öÊý¾Ý£¬ÕÒ²»µ½¾ÍÊÇundefined¡£
-£¨·µ»ØÖµÊÇ²éÕÒµÄÊý¾Ý£¬Ô­Êý×é²»»á¸Ä±ä£©
+Find()ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½Òµï¿½ï¿½Øµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý£ï¿½ï¿½Ò²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½undefinedï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Öµï¿½Ç²ï¿½ï¿½Òµï¿½ï¿½ï¿½ï¿½Ý£ï¿½Ô­ï¿½ï¿½ï¿½é²»ï¿½ï¿½Ä±ä£©
 let ary =[1,2,3,4];
 console.log(ary.find(item=>item===3));//3
 console.log(ary);//(4)?[1, 2, 3, 4]
@@ -563,16 +563,16 @@ console.log(ary);//(4)?[1, 2, 3, 4]
 
 
 
-Findindex()·½·¨£º
-ÕÒµ½»Øµ÷º¯ÊýÖÐ·ûºÏÌõ¼þµÄÊý¾Ý²¢·µ»ØÕâ¸öÊý¾ÝµÄË÷Òý£¬ÕÒ²»µ½¾ÍÊÇ-1¡£
-£¨·µ»ØÖµÊÇ²éÕÒµÄÊý¾ÝµÄË÷Òý£¬Ô­Êý×é²»»á¸Ä±ä£©
+Findindex()ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½Òµï¿½ï¿½Øµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ýµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½-1ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Öµï¿½Ç²ï¿½ï¿½Òµï¿½ï¿½ï¿½ï¿½Ýµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô­ï¿½ï¿½ï¿½é²»ï¿½ï¿½Ä±ä£©
 let ary =[1,2,3,4];
-console.log(ary.findIndex(item=>item===3));//Ë÷ÒýÊÇ2
+console.log(ary.findIndex(item=>item===3));//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½2
 console.log(ary);//(4)?[1, 2, 3, 4]
 
-Includes()·½·¨£º
-²é¿´Êý×éÖÐÓÐÃ»ÓÐÖ¸¶¨Ìõ¼þµÄÊý¾Ý£¬ÓÐ¾ÍÊÇtrue£¬Ã»ÓÐ¾ÍÊÇfalse¡£
-£¨·µ»ØÖµÊÇ²¼¶ûÖµ£¬Ô­Êý×é²»»á¸Ä±ä£©
+Includes()ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½é¿´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã»ï¿½ï¿½Ö¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý£ï¿½ï¿½Ð¾ï¿½ï¿½ï¿½trueï¿½ï¿½Ã»ï¿½Ð¾ï¿½ï¿½ï¿½falseï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Öµï¿½Ç²ï¿½ï¿½ï¿½Öµï¿½ï¿½Ô­ï¿½ï¿½ï¿½é²»ï¿½ï¿½Ä±ä£©
 let ary =[1,2,3,4];
 console.log(ary.includes(3));//true
 console.log(ary);//(4)?[1, 2, 3, 4]
@@ -581,77 +581,77 @@ console.log(ary);//(4)?[1, 2, 3, 4]
 
 
 
-indexOf()·½·¨£º
-Á½¸ö²ÎÊý£¨Ö¸¶¨Êý¾Ý£¬´Ó¶àÉÙ¿ªÊ¼ÕÒ£¬µ±Ç°¾ÍÊÇÄ¿±ê·µ»Øµ±Ç°Ë÷Òý£¬µ±Ç°²»ÊÇ£¬ÍùºóÕÒ×î½üµÄÒ»¸ö£©
-ÕÒµ½Ö¸¶¨Êý¾ÝµÄ¶ÔÓ¦µÄË÷Òý£¬ÓÐ¾Í·µ»ØÊý¾ÝµÄË÷Òý£¬Ã»ÓÐ¾ÍÊÇ-1¡£
-£¨·µ»ØÖµÊÇÊý¾Ý¶ÔÓ¦µÄË÷Òý£¬Ô­Êý×é²»»á¸Ä±ä£©
+indexOf()ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö¸ï¿½ï¿½ï¿½ï¿½ï¿½Ý£ï¿½ï¿½Ó¶ï¿½ï¿½Ù¿ï¿½Ê¼ï¿½Ò£ï¿½ï¿½ï¿½Ç°ï¿½ï¿½ï¿½ï¿½Ä¿ï¿½ê·µï¿½Øµï¿½Ç°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç°ï¿½ï¿½ï¿½Ç£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½
+ï¿½Òµï¿½Ö¸ï¿½ï¿½ï¿½ï¿½ï¿½ÝµÄ¶ï¿½Ó¦ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð¾Í·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ýµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã»ï¿½Ð¾ï¿½ï¿½ï¿½-1ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Öµï¿½ï¿½ï¿½ï¿½ï¿½Ý¶ï¿½Ó¦ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô­ï¿½ï¿½ï¿½é²»ï¿½ï¿½Ä±ä£©
 let ary =[1,2,3,4];
-console.log(ary.indexOf(3,2));//¶ÔÓ¦µÄË÷Òý2
+console.log(ary.indexOf(3,2));//ï¿½ï¿½Ó¦ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½2
 console.log(ary);//(4)?[1, 2, 3, 4];
 let?ary?=?[1,2,1,4,5,6,1,1,1];
-console.log(ary.indexOf(1,3));//6ÍùºóÕÒ
+console.log(ary.indexOf(1,3));//6ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 console.log(ary);//(9)?[1,?2,?1,?4,?5,?6,?1,?1,?1]
 
 
-lastindexOf()·½·¨£»
-Á½¸ö²ÎÊý£¨ÕÒË­£¬´Ó¶àÉÙ¿ªÊ¼ÕÒ£¬µ±Ç°ÊÇÄ¿±êµ«»áµ±Ç°ÊýË÷Òý£¬µ±Ç°²»ÊÇÄ¿±ê£¬¾ÍÍùÇ°ÊýÕÒµ½×î½üµÄÒ»¸öÄ¿±ê·µ»ØË÷Òý£©
-£¨·µ»ØÖµÊÇÊý¾Ý¶ÔÓ¦µÄË÷Òý£¬Ô­Êý×é²»»á¸Ä±ä£©
-´ÓºóÍùÇ°ÕÒ£¬²éÑ¯Ö¸¶¨µÄÊý¾Ý£¬ÕÒµ½·µ»ØË÷Òý£¬Î´ÕÒµ½¾ÍÊÇ-1£»
+lastindexOf()ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë­ï¿½ï¿½ï¿½Ó¶ï¿½ï¿½Ù¿ï¿½Ê¼ï¿½Ò£ï¿½ï¿½ï¿½Ç°ï¿½ï¿½Ä¿ï¿½êµ«ï¿½áµ±Ç°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç°ï¿½ï¿½ï¿½ï¿½Ä¿ï¿½ê£¬ï¿½ï¿½ï¿½ï¿½Ç°ï¿½ï¿½ï¿½Òµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½Ä¿ï¿½ê·µï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Öµï¿½ï¿½ï¿½ï¿½ï¿½Ý¶ï¿½Ó¦ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô­ï¿½ï¿½ï¿½é²»ï¿½ï¿½Ä±ä£©
+ï¿½Óºï¿½ï¿½ï¿½Ç°ï¿½Ò£ï¿½ï¿½ï¿½Ñ¯Ö¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý£ï¿½ï¿½Òµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î´ï¿½Òµï¿½ï¿½ï¿½ï¿½ï¿½-1ï¿½ï¿½
 let?ary?=?[1,2,1,4,5,6,1,1,1];
-console.log(ary.lastIndexOf(1,5));//2?ÍùÇ°ÕÒ
+console.log(ary.lastIndexOf(1,5));//2?ï¿½ï¿½Ç°ï¿½ï¿½
 console.log(ary);//(9)?[1,?2,?1,?4,?5,?6,?1,?1,?1]
 
-Slice()·½·¨£º
-slice(n,m) ½ØÈ¡Êý×éÖÐµÄÔªËØ£¬n¿ªÊ¼µÄÏÂ±ê£¬m½áÊøµÄÏÂ±ê£¬£¨²»°üº¬m±¾Éí£©£¬Èç¹ûÊÇ¸ºÊý±íÊ¾µ¹Êý£¬Èç¹ûmÎª¿Õ£¬»á½ØÈ¡×îºó£¬·µ»ØÊý×é¡£
-ary.slice();//²»´«Öµ¾ÍÊÇ¸³ÖµÒ»¸öÊý×é
-£¨·µ»ØÖµÊÇÒ»¸ö½ØÈ¡µÄÐÂµÄÊý×é£¬Ô­Êý×é²»»á¸Ä±ä£©
+Slice()ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+slice(n,m) ï¿½ï¿½È¡ï¿½ï¿½ï¿½ï¿½ï¿½Ðµï¿½Ôªï¿½Ø£ï¿½nï¿½ï¿½Ê¼ï¿½ï¿½ï¿½Â±ê£¬mï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â±ê£¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½mï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç¸ï¿½ï¿½ï¿½ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½mÎªï¿½Õ£ï¿½ï¿½ï¿½ï¿½È¡ï¿½ï¿½ó£¬·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½é¡£
+ary.slice();//ï¿½ï¿½ï¿½ï¿½Öµï¿½ï¿½ï¿½Ç¸ï¿½ÖµÒ»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Öµï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½È¡ï¿½ï¿½ï¿½Âµï¿½ï¿½ï¿½ï¿½é£¬Ô­ï¿½ï¿½ï¿½é²»ï¿½ï¿½Ä±ä£©
 let?ary?=[1,2,3,4,5,6,9];
 console.log(ary.slice(1,4));//[2, 3, 4]
 console.log(ary);//(4)?(7)?[1, 2, 3, 4, 5, 6, 9]
 
-Splice·½·¨ÔöÉ¾¸Ä²é
-ÐÎÊ½£º(start,count,value1,value2...)
-startÎª¿ªÊ¼µÄÏÂ±ê£¬countÉ¾³ýµÄ¸öÊý£¬valueÉ¾³ýºó²¹³äµÄÔªËØ
-countÎª¿Õ£¬É¾³ýµ½×îºó£¬valueÎª¿ÕÖ»É¾³ý²»²¹³äÈÎºÎÔªËØ¡£
-£¨·µ»ØÖµÊÇÉ¾³ýµÄÔªËØÊý×é£¬Ô­Êý×é¸Ä±ä£©
-Ôö£ºlet?ary?=?[1,2,3,4,5];
+Spliceï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É¾ï¿½Ä²ï¿½
+ï¿½ï¿½Ê½ï¿½ï¿½(start,count,value1,value2...)
+startÎªï¿½ï¿½Ê¼ï¿½ï¿½ï¿½Â±ê£¬countÉ¾ï¿½ï¿½ï¿½Ä¸ï¿½ï¿½ï¿½ï¿½ï¿½valueÉ¾ï¿½ï¿½ï¿½ó²¹³ï¿½ï¿½Ôªï¿½ï¿½
+countÎªï¿½Õ£ï¿½É¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½valueÎªï¿½ï¿½Ö»É¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îºï¿½Ôªï¿½Ø¡ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Öµï¿½ï¿½É¾ï¿½ï¿½ï¿½ï¿½Ôªï¿½ï¿½ï¿½ï¿½ï¿½é£¬Ô­ï¿½ï¿½ï¿½ï¿½Ä±ä£©
+ï¿½ï¿½ï¿½ï¿½let?ary?=?[1,2,3,4,5];
 console.log(ary.splice(1,0,8));//[]
 console.log(ary);//(6)?[1,?8,?2,?3,?4,?5]
-É¾£ºlet?ary?=?[1,2,3,4,5];
+É¾ï¿½ï¿½let?ary?=?[1,2,3,4,5];
 console.log(ary.splice(1,2));//[2,?3]
 console.log(ary);//(3)?[1,?4,?5]
-¸Ä£º£¨Ìæ»»µÄÆðÊ¼Î»ÖÃ£¬ÐÞ¸Ä¼¸¸ö£¬Ìí¼ÓµÄÊý¾Ý£©
-£¨1£©let?ary?=?[1,2,3,4,5];
+ï¿½Ä£ï¿½ï¿½ï¿½ï¿½æ»»ï¿½ï¿½ï¿½ï¿½Ê¼Î»ï¿½Ã£ï¿½ï¿½Þ¸Ä¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Óµï¿½ï¿½ï¿½ï¿½Ý£ï¿½
+ï¿½ï¿½1ï¿½ï¿½let?ary?=?[1,2,3,4,5];
 console.log(ary.splice(3,1,8,9));//[]
 console.log(ary);//(5)?[1, 2, 3, 8, 9,5]
-Ôö£ºÔÚÊý×é×îÇ°Ìí¼ÓÒ»¸öÊý¾Ý
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç°ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 let?ary?=?[1,2,3,4,5];
 console.log(ary.splice(0,0,6));//[]
 console.log(ary);//(6)?[6,?1,?2,?3,?4,?5]
-²é£ºÓÖÓÐÉ¾³ý¿ÉÒÔ²é
+ï¿½é£ºï¿½ï¿½ï¿½ï¿½É¾ï¿½ï¿½ï¿½ï¿½ï¿½Ô²ï¿½
 let?ary?=?[1,2,3,4,5];
 console.log(ary.splice(5,0));//[]
 console.log(ary);//(5)?[1,?2,?3,?4,?5]
 
-Reduce()·½·¨£º
-×Ü¼Æ£ºÑ­»·Êý×éÀÛ¼ÆÃ¿Ò»´ÎµÄ·µ»Ø½á¹û¡£
-Á½¸ö²ÎÊý£¨callback£¬³õÊ¼Öµ£©
-µÚÒ»¸ö²ÎÊýÎªÉÏÒ»¸ö½á¹û£¬µÚ¶þ¸ö²ÎÊýÎªÏÂÒ»¸öÊý¾Ý¡£
-CallbackÁ½¸ö²ÎÊý£¨ÉÏÒ»´ÎµÄ½á¹û£¬ÏÂÒ»´ÎµÄÖµ£©
+Reduce()ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½Ü¼Æ£ï¿½Ñ­ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Û¼ï¿½Ã¿Ò»ï¿½ÎµÄ·ï¿½ï¿½Ø½ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½callbackï¿½ï¿½ï¿½ï¿½Ê¼Öµï¿½ï¿½
+ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½Ý¡ï¿½
+Callbackï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ÎµÄ½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½Îµï¿½Öµï¿½ï¿½
 let?ary?=?[10.5,6,3,2,8,1];?
-????//prevÎªÉÏ´ÎµÄ½á¹û
+????//prevÎªï¿½Ï´ÎµÄ½ï¿½ï¿½
 ????let?a?=?ary.reduce(function(b,next){
 ????????console.log(b,next);
 ????????return?b?+?next;
-????},0);//¿ªÊ¼´«Ò»¸öprevÎª0
+????},0);//ï¿½ï¿½Ê¼ï¿½ï¿½Ò»ï¿½ï¿½prevÎª0
 ????console.log(a);//29.5
 
-Flat()·½·¨:Êý×é±âÆ½»¯
-°Ñ¶àÎ¬Êý×é±äÎªÒ»Î¬Êý×é£º
-Ò»¸ö²ÎÊý£ºary.flat()£»
-À¨ºÅÖÐµÄÊý×ÖÊÇ£ºÊý×éµÄÏÖÔÚ¼¸Î¬Êý×é£¬È»ºó×ªÒ»Î¬¡£
-Èç¹û²»ÖªµÀÊý×éÀïÃæ°üº¬¼¸Î¬£¬ÄÇÀ¨ºÅÀï¾ÍÊÇinfinity¡£
-²»Ð´²ÎÊý£¬Ä¬ÈÏÀ­Æ½Á½¸öÊý×é¡£
+Flat()ï¿½ï¿½ï¿½ï¿½:ï¿½ï¿½ï¿½ï¿½ï¿½Æ½ï¿½ï¿½
+ï¿½Ñ¶ï¿½Î¬ï¿½ï¿½ï¿½ï¿½ï¿½ÎªÒ»Î¬ï¿½ï¿½ï¿½é£º
+Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ary.flat()ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½Ðµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú¼ï¿½Î¬ï¿½ï¿½ï¿½é£¬È»ï¿½ï¿½×ªÒ»Î¬ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½Öªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½infinityï¿½ï¿½
+ï¿½ï¿½Ð´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¬ï¿½ï¿½ï¿½ï¿½Æ½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½é¡£
 let?ary?=[1,2,3,4,5,6,[7,[8,[9,10]]]];
 console.log(ary.flat(Infinity));//[1,?2,?3,?4,?5,?6,?7,?8,?9,?10]
 console.log(ary);//(7)?[1,?2,?3,?4,?5,?6,?Array(2)]
@@ -659,33 +659,33 @@ console.log(ary);//(7)?[1,?2,?3,?4,?5,?6,?Array(2)]
 
 
 
-Sort()·½·¨£ºÅÅÐò
-ÓÐÒ»¸ö²ÎÊýsort(callback(a,b)):
-±ØÐë·µ»ØÒ»¸öÊý×Ö,ÍâÃæÒª°ü¹üÒ»²ãparseInt();·µ»ØÓÐÐ§Êý×Ö
-£¨·µ»ØÖµÊÇÅÅÐòºÃµÄÐÂÊý×é£¬Ô­Êý×é¸Ä±ä£©
-Let ary = [1,5,4,¡¯2¡¯,¡¯3px¡¯];
-ary.sort(function(a,b){//¿ÉÒÔ»»³É¼ýÍ·º¯Êý(a,b)=>{return a-b}
-return  parseInt(a)-parseInt(b);//´ÓÐ¡µ½´óÅÅÐò
-return  parseInt(b)-parseInt(a);//´Ó´óµ½Ð¡ÅÅÐò})
+Sort()ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sort(callback(a,b)):
+ï¿½ï¿½ï¿½ë·µï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½,ï¿½ï¿½ï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½parseInt();ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð§ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Öµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ãµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½é£¬Ô­ï¿½ï¿½ï¿½ï¿½Ä±ä£©
+Let ary = [1,5,4,ï¿½ï¿½2ï¿½ï¿½,ï¿½ï¿½3pxï¿½ï¿½];
+ary.sort(function(a,b){//ï¿½ï¿½ï¿½Ô»ï¿½ï¿½É¼ï¿½Í·ï¿½ï¿½ï¿½ï¿½(a,b)=>{return a-b}
+return  parseInt(a)-parseInt(b);//ï¿½ï¿½Ð¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+return  parseInt(b)-parseInt(a);//ï¿½Ó´ï¿½Ð¡ï¿½ï¿½ï¿½ï¿½})
 
-Êý×éµÄÀ©Õ¹£º...ÔËËã·û
-×÷ÓÃ:Õ¹¿ªÊý×é
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Õ¹ï¿½ï¿½...ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½:Õ¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 let?ary?=?[1,2,5,3,6,4,8,10,9];
 console.log(...ary);//1?2?5?3?6?4?8?10?9
 console.log(ary);//(9)?[1,?2,?5,?3,?6,?4,?8,?10,?9]
 
-Êý×éÈ¥ÖØ£º
+ï¿½ï¿½ï¿½ï¿½È¥ï¿½Ø£ï¿½
 1.let?ary?=?[1,2,5,2,6,5,8,8,9];
 console.log([...new?Set(ary)]);//(6)?[1,?2,?5,?6,?8,?9]
 console.log(...new?Set(ary).size);//6
-2.forÌ×for
+2.forï¿½ï¿½for
 let ary =[1,2,3,2,5,6,1,2,3,2];
 for(let i=0;i<ary.length;i++){
 for(let j=j+1;j<ary.length;j++){
 if(){}
 }
 }
-3.ÖÖ
+3.ï¿½ï¿½
 let?ary2??=?[];
 ??for?(let?k?=?0;?k?<?ary.length;?k++)?{
 ?????if?(ary2.includes(ary[k]))?{
@@ -696,26 +696,26 @@ let?ary2??=?[];
 ????} 
 console.log(ary2);
 
-¸´ÖÆÒ»¸öÊý×éµÄ·½·¨£º
+ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä·ï¿½ï¿½ï¿½ï¿½ï¿½
 1.Concat():
 var arr1 = [1,2,3,4];
   var arr2 = arr1.concat();
-2.slice()£º
+2.slice()ï¿½ï¿½
  var arr1 = [1,2,3,4];
    var2 = arr1.slice(0);
-3.À©Õ¹ÔËËã·û£º 
-  Ð´·¨Ò»£º 
+3.ï¿½ï¿½Õ¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 
+  Ð´ï¿½ï¿½Ò»ï¿½ï¿½ 
 var arr1 = [1,2,3,4];
     var2 = [...arr1];
-  Ð´·¨¶þ£º
+  Ð´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 var arr1 = [1,2,3,4];
     var [...arr2] = arr1;
 
-ArrayÏÂµÄ·½·¨£º
-new Array£¨¹¹Ôìº¯Êý£©¾²Ì¬·½·¨
- [] £º£¨ÊµÀý£©ÊµÀýÉÏµÄ·½·¨½Ð¶¯Ì¬·½·¨
-Array.form();°ÑÀàÊý×é×ªÎªÊý×é£º¿ÉÒÔÓÃÀ´×ªarguments¡£
-Array.isArray();¼ì²â²ÎÊýÖÐµÄÊý¾ÝÊÇ·ñÎªÊý×é¡£
+Arrayï¿½ÂµÄ·ï¿½ï¿½ï¿½ï¿½ï¿½
+new Arrayï¿½ï¿½ï¿½ï¿½ï¿½ìº¯ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì¬ï¿½ï¿½ï¿½ï¿½
+ [] ï¿½ï¿½ï¿½ï¿½Êµï¿½ï¿½ï¿½ï¿½Êµï¿½ï¿½ï¿½ÏµÄ·ï¿½ï¿½ï¿½ï¿½Ð¶ï¿½Ì¬ï¿½ï¿½ï¿½ï¿½
+Array.form();ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×ªÎªï¿½ï¿½ï¿½é£ºï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×ªargumentsï¿½ï¿½
+Array.isArray();ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ðµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç·ï¿½Îªï¿½ï¿½ï¿½é¡£
 
 
 
@@ -733,15 +733,15 @@ Array.isArray();¼ì²â²ÎÊýÖÐµÄÊý¾ÝÊÇ·ñÎªÊý×é¡£
 
 
 
-×Ö·û´®·½·¨£ºstring
-1.¡®¡¯¡°¡±``
-2.new String(¡®abc¡¯)
-3.LengthÊôÐÔÖ»ÄÜ¶Á²»ÄÜÐ´
+ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½string
+1.ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½``
+2.new String(ï¿½ï¿½abcï¿½ï¿½)
+3.Lengthï¿½ï¿½ï¿½ï¿½Ö»ï¿½Ü¶ï¿½ï¿½ï¿½ï¿½ï¿½Ð´
 
-Slice()ºÍsubString()¹¦ÄÜÒ»Ñù£¬µ«ÊÇsliceµÄ²ÎÊý¿ÉÒÔÎª¸ºÊý¡£
-subString():½ØÈ¡×Ö·û´®ÖÐÖ¸¶¨Î»ÖÃµÄ×Ö·û¡£
-Á½¸ö²ÎÊý£º£¨n,m£©£ºnÎªÆðÊ¼Î»ÖÃ£¬mÎª½áÊøÎ»ÖÃ£¬µ«²»°üÀ¨m.        m²»´«Ä¬ÈÏ½ØÈ¡µ½×îºó¡£n²»ÄÜÎª¸ºÊý£¬²»È»×Ô¶¯×ªÎª0.  
-n<m£¬·ñÔò»á×Ô¶¯µ÷»»Î»ÖÃ¡£
+Slice()ï¿½ï¿½subString()ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sliceï¿½Ä²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+subString():ï¿½ï¿½È¡ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½Ö¸ï¿½ï¿½Î»ï¿½Ãµï¿½ï¿½Ö·ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½n,mï¿½ï¿½ï¿½ï¿½nÎªï¿½ï¿½Ê¼Î»ï¿½Ã£ï¿½mÎªï¿½ï¿½ï¿½ï¿½Î»ï¿½Ã£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½m.        mï¿½ï¿½ï¿½ï¿½Ä¬ï¿½Ï½ï¿½È¡ï¿½ï¿½ï¿½ï¿½ï¿½nï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È»ï¿½Ô¶ï¿½×ªÎª0.  
+n<mï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô¶ï¿½ï¿½ï¿½ï¿½ï¿½Î»ï¿½Ã¡ï¿½
 let?str?=?'abch932yrb0c2unxqp9';
 ????console.log(str.substring(4,7));//932
 ????console.log(str.substring(4,0));//abch
@@ -749,49 +749,49 @@ let?str?=?'abch932yrb0c2unxqp9';
 
 
 
-subStr():ÆðÊ¼Î»ÖÃ½ØÈ¡
-Á½¸ö²ÎÊý£º£¨n,m£©:nÎªÆðÊ¼Î»ÖÃ£¬m½ØÈ¡µÄ¸öÊý£¬m²»´«Ä¬ÈÏ½ØÈ¡µ½×îºó¡£
+subStr():ï¿½ï¿½Ê¼Î»ï¿½Ã½ï¿½È¡
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½n,mï¿½ï¿½:nÎªï¿½ï¿½Ê¼Î»ï¿½Ã£ï¿½mï¿½ï¿½È¡ï¿½Ä¸ï¿½ï¿½ï¿½ï¿½ï¿½mï¿½ï¿½ï¿½ï¿½Ä¬ï¿½Ï½ï¿½È¡ï¿½ï¿½ï¿½ï¿½ï¿½
 let?str?=?'abch932yrb0c2unxqp9';
 ????console.log(str.substr(4,3));//932
 ????console.log(str.substr(6));//2yrb0c2unxqp9
 
 
 
-charCodeAt()·½·¨
+charCodeAt()ï¿½ï¿½ï¿½ï¿½
 let?str?=?'abch932yrb0c2unxqp9';
-????console.log('9'.charCodeAt());?//°Ñ×Ö·û´®×ª³Éunicode±àÂëÖµ57
+????console.log('9'.charCodeAt());?//ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½×ªï¿½ï¿½unicodeï¿½ï¿½ï¿½ï¿½Öµ57
 
-Includes():Ö¸¶¨×Ö·ûÊÇ·ñÔÚÕû¸ö×Ö·û´®ÖÐ³öÏÖ£¬Ã»ÓÐ¾ÍÊÇfalse¡£
-ÐÎÊ½£ºstr.includes(¡®abc¡¯)
+Includes():Ö¸ï¿½ï¿½ï¿½Ö·ï¿½ï¿½Ç·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½Ð³ï¿½ï¿½Ö£ï¿½Ã»ï¿½Ð¾ï¿½ï¿½ï¿½falseï¿½ï¿½
+ï¿½ï¿½Ê½ï¿½ï¿½str.includes(ï¿½ï¿½abcï¿½ï¿½)
 let?str?=?'abch932yrb0c2unxqp9';
 ????console.log(str.includes('93'));//true
 
 
 
 indexOf():
-Á½¸ö²ÎÊý£º1.£¨Ö¸¶¨×Ö·û£¬m£©´ÓË÷Òým¿ªÊ¼ÍùºóÕÒ£¬·µ»ØÕÒµ½µÚÒ»¸ö×Ö·ûµÄÏÂ±ê 2.indexOf(x):xÎªµÚÒ»´Î³öÏÖµÄÎ»ÖÃË÷Òý
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½1.ï¿½ï¿½Ö¸ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½mï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½mï¿½ï¿½Ê¼ï¿½ï¿½ï¿½ï¿½ï¿½Ò£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Òµï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½Â±ï¿½ 2.indexOf(x):xÎªï¿½ï¿½Ò»ï¿½Î³ï¿½ï¿½Öµï¿½Î»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
 
 lastIndexOf():
-Á½¸ö²ÎÊý£º1.£¨Ö¸¶¨×Ö·û£¬m£©´ÓmË÷ÒýÍùÇ°ÕÒ£¬·µ»ØÕÒµ½µÚÒ»´Î×Ö·ûµÄÏÂ±ê¡£2.lastindexOf(x):xÎª×îºóÒ»´Î³öÏÖµÄÎ»ÖÃË÷Òý
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½1.ï¿½ï¿½Ö¸ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½mï¿½ï¿½ï¿½ï¿½mï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç°ï¿½Ò£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Òµï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½Â±ê¡£2.lastindexOf(x):xÎªï¿½ï¿½ï¿½Ò»ï¿½Î³ï¿½ï¿½Öµï¿½Î»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 let?str2?=?'txt.html.css.js';
 ????console.log(?str2.substr(?str2.lastIndexOf('.')+1)?);//js
 
-Replace():Ìæ»»
-È±µã£ºÒ»´ÎÖ»ÄÜÌæ»»Ò»¸ö½â¾ö·½·¨£ºstr.replace(/-/g,¡¯/¡¯)ÕýÔòÈ«¾Ö
-Á½¸ö²ÎÊý£º £¨ÒªÌæ»»Ë­£¨×Ö·û´®||ÕýÔò£©£¬Ìæ»»³ÉÊ²Ã´£¨×Ö·û´®||»Øµ÷º¯Êý£©£©
-Èç¹ûÊÇ»Øµ÷º¯Êý£¬Ò»¶¨Òªreturn£¬²»È»Ìæ»»½á¹ûÊÇundefined
-let?str?=?'Ü³,ÄãÃÃ½ðÈýÅÖ';//%$%^$
-????//?console.log(str.replace('ÄãÃÃ','%^&'));
-????let?ss?=?str.replace('ÄãÃÃ',function($0){//$0¾ÍÊÇÒªÌæ»»µÄ×Ö·û
+Replace():ï¿½æ»»
+È±ï¿½ã£ºÒ»ï¿½ï¿½Ö»ï¿½ï¿½ï¿½æ»»Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½str.replace(/-/g,ï¿½ï¿½/ï¿½ï¿½)ï¿½ï¿½ï¿½ï¿½È«ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Òªï¿½æ»»Ë­ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½||ï¿½ï¿½ï¿½ò£©£ï¿½ï¿½æ»»ï¿½ï¿½Ê²Ã´ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½||ï¿½Øµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½Ç»Øµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½Òªreturnï¿½ï¿½ï¿½ï¿½È»ï¿½æ»»ï¿½ï¿½ï¿½ï¿½ï¿½undefined
+let?str?=?'Ü³,ï¿½ï¿½ï¿½Ã½ï¿½ï¿½ï¿½ï¿½ï¿½';//%$%^$
+????//?console.log(str.replace('ï¿½ï¿½ï¿½ï¿½','%^&'));
+????let?ss?=?str.replace('ï¿½ï¿½ï¿½ï¿½',function($0){//$0ï¿½ï¿½ï¿½ï¿½Òªï¿½æ»»ï¿½ï¿½ï¿½Ö·ï¿½
 ????????let?temp?=?'';
 ????????for(let?i=0;i<$0.length;i++){
 ????????????temp?+=?'*'
 ????????}
-????????return?temp;?//Èç¹ûÊÇ»Øµ÷º¯ÊýµÄÇé¿öÏÂ£¬ÄÇÃ´Ò»¶¨ÒªÐ´return£¬²»È»·µ»ØÌæ»»½á¹ûÎªundefined
+????????return?temp;?//ï¿½ï¿½ï¿½ï¿½Ç»Øµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â£ï¿½ï¿½ï¿½Ã´Ò»ï¿½ï¿½ÒªÐ´returnï¿½ï¿½ï¿½ï¿½È»ï¿½ï¿½ï¿½ï¿½ï¿½æ»»ï¿½ï¿½ï¿½Îªundefined
 ????????//?console.log($0);
 ????});
-????console.log(ss);//Ü³,**½ðÈýÅÖ
+????console.log(ss);//Ü³,**ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
 
 
@@ -800,26 +800,26 @@ let?str?=?'Ü³,ÄãÃÃ½ðÈýÅÖ';//%$%^$
 
 
 
-Split()£º·Ö¸ô·û
-Ò»¸ö²ÎÊý£¨·Ö¸ô·û£©
-°Ñ×Ö·û´®·Ö¸î³ÉÊý×é£¬·Ö¸ô·û×÷Îª²ÎÊý£¬°Ñ×Ö·û´®°´ÕÕÖ¸¶¨×Ö·û·Ö¸îÈ»ºó·Åµ½Êý×éÖÐ¡£
-Ö»ÓÐ¿Õ×Ö·û´®ÇÐ¿Õ×Ö·û´®ÊÇÒ»¸ö¿ÕÊý×é¡£
-let str = ¡®¡¯;
-console.log(str.split(¡®¡¯));//[]
-ÓÃÕû¸ö×Ö·û´®È¥·Ö¸î£¬½á¹ûÊÇÁ½¸ö¿Õ×Ö·û´®¡£
-let str = ¡®Öì¡¯;
-console.log(str.split(¡®Öì¡¯));//[¡°¡±£¬¡°¡±]
-ÊµÀý£º
-1.let?str?=?'ÑµÅà·åÖé';
-console.log(str.split('').reverse().join(''));//Öé·åÅàÑµ
+Split()ï¿½ï¿½ï¿½Ö¸ï¿½ï¿½ï¿½
+Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö¸ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½Ö¸ï¿½ï¿½ï¿½ï¿½ï¿½é£¬ï¿½Ö¸ï¿½ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö¸ï¿½ï¿½ï¿½Ö·ï¿½ï¿½Ö¸ï¿½È»ï¿½ï¿½Åµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð¡ï¿½
+Ö»ï¿½Ð¿ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½Ð¿ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½é¡£
+let str = ï¿½ï¿½ï¿½ï¿½;
+console.log(str.split(ï¿½ï¿½ï¿½ï¿½));//[]
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½È¥ï¿½Ö¸î£¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½
+let str = ï¿½ï¿½ï¿½ì¡¯;
+console.log(str.split(ï¿½ï¿½ï¿½ì¡¯));//[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½]
+Êµï¿½ï¿½ï¿½ï¿½
+1.let?str?=?'Ñµï¿½ï¿½ï¿½ï¿½ï¿½';
+console.log(str.split('').reverse().join(''));//ï¿½ï¿½ï¿½ï¿½ï¿½Ñµ
 
-2.//Ò»¸ö¼Û¸ñÐèÒª±£Áô2ÎªÐ¡Êý£¿??
+2.//Ò»ï¿½ï¿½ï¿½Û¸ï¿½ï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½2ÎªÐ¡ï¿½ï¿½ï¿½ï¿½??
 ????let?num?=?10.99999;
 ????let?str3?=?(num+'');
 ????console.log(str3.substring(0,str3.indexOf('.')+3)*1);//10.99
 
 
-toUpperCase():×ªÎª´óÐ´
+toUpperCase():×ªÎªï¿½ï¿½Ð´
 toLowerCase():×ªÎªÐ¡Ð´
 let?str2?=?'background-blend-mode-dsds-hahs-djsak:';
 ????let?arr?=?str2.split('-');
@@ -829,84 +829,84 @@ let?str2?=?'background-blend-mode-dsds-hahs-djsak:';
 ????}
 ????console.log(temp);//backgroundBlendModeDsdsHahsDjs
 
-Trim()£ºÈ¥µô×Ö·û´®Ç°ºó¿Õ¸ñ
-let?str?=?'???Öé?·å?Åà?Ñµ???';
-????console.log(str.trim());//Öé?·å?Åà?Ñµ
+Trim()ï¿½ï¿½È¥ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½Ç°ï¿½ï¿½Õ¸ï¿½
+let?str?=?'???ï¿½ï¿½?ï¿½ï¿½?ï¿½ï¿½?Ñµ???';
+????console.log(str.trim());//ï¿½ï¿½?ï¿½ï¿½?ï¿½ï¿½?Ñµ
 
 Json:
-Let json = ¡®{¡°name¡±:¡±Öé·å¡±}¡¯;
-1.×ªÎª¶ÔÏó£ºJSON.parse(json);//{¡°name¡±:¡±Öé·å¡±}
-Let json = {¡°name¡±:¡±Öé·å¡±};
-2.¶ÔÏó×ªjson£ºJSON.stringify(json);//¡®{¡°name¡±:¡±Öé·å¡±}¡¯
-3.º¯Êý×ª²»ÁË
+Let json = ï¿½ï¿½{ï¿½ï¿½nameï¿½ï¿½:ï¿½ï¿½ï¿½ï¿½å¡±}ï¿½ï¿½;
+1.×ªÎªï¿½ï¿½ï¿½ï¿½JSON.parse(json);//{ï¿½ï¿½nameï¿½ï¿½:ï¿½ï¿½ï¿½ï¿½å¡±}
+Let json = {ï¿½ï¿½nameï¿½ï¿½:ï¿½ï¿½ï¿½ï¿½å¡±};
+2.ï¿½ï¿½ï¿½ï¿½×ªjsonï¿½ï¿½JSON.stringify(json);//ï¿½ï¿½{ï¿½ï¿½nameï¿½ï¿½:ï¿½ï¿½ï¿½ï¿½å¡±}ï¿½ï¿½
+3.ï¿½ï¿½ï¿½ï¿½×ªï¿½ï¿½ï¿½ï¿½
 
-DOM£ºÎÄµµ¶ÔÏóÄ£ÐÍ£¨document,object,model£©
-Í¨¹ýdocumentÌá¹©µÄAPI£¬¸³Óè¿ª·¢Õß²Ù×÷Ò³ÃæµÄÄÜÁ¦¡£
-Ò³ÃæµÄ±êÇ©ºÍDOMÖÐµÄ¶ÔÏóÊÇÒ»Ò»¶ÔÓ¦µÄ¹ØÏµ£¬²Ù×÷¶ÔÏó¾ÍµÈÓÚ²Ù×÷±êÇ©£¬ÔÚÒ³ÃæÖÐËùÓÐµÄÄÚÈÝ½Ð½Úµã¡£Node ±êÇ©½ÐÔªËØ½Úµã¡£
-¼ì²âÊý¾ÝÀàÐÍ£ºtypeof
-¼ì²â½ÚµãÀàÐÍ£ºnodeType
-ÔªËØ½Úµã1  ±êÇ©½ÐÔªËØ½ÚµãchildrenÕÒ×Ó¼¶ÔªËØ½Úµã
-ÎÄ±¾½Úµã3 £¨°üÀ¨ÎÄ±¾ºÍ¿ÕÎÄ±¾£©
-×¢ÊÍ½Úµã8  ÊÇÎÄ±¾½ÚµãµÄÐÖµÜ
-ÊôÐÔ½Úµã2  attributesµ±Ç°ÔªËØµÄÊôÐÔÓ³Éä±í
-ÎÄµµ½Úµã9 £¨document.nodeType£©
-nodeName:½ÚµãÊôÐÔÃû³Æ
-nadeValue:½ÚµãÊôÐÔÖµ
-È¨ÖØ£º£¡Important(10000)>ÐÐÄÚ(1000)>id(100)>class(10)>±êÇ©(1)>*(0)
-childNodes:Ä³¸öÔªËØ½ÚµãÏÂµÄËùÓÐ×Ó¼¶£¬ÊÇ¸ö¼¯ºÏ£¬·ÃÎÊÒªÓÃÏÂ±ê
-parentNode£ºÕÒ¸¸¼¶ÔªËØ¡¢½Úµã
-previousElementSibling£ºÉÏÒ»¸öÐÖµÜ½Úµã
-nextElementSibling£ºÏÂÒ»¸öÐÖµÜ½Úµã
-firstElementsChild:µÚÒ»¸ö×ÓÔªËØ½Úµã
-lastElementsChild:×îºóÒ»¸ö×ÓÔªËØ½Úµã
-»ñÈ¡ÔªËØ£ºdocument.body...
-´´½¨ÔªËØ£º1.ele.innerHTML = ¡®<div></div>¡¯£º×Ö·û´®
-2.document.createElement(±êÇ©Ãû)£º½Úµã
-²åÈëÔªËØ£ºparent.appendChild(children)
-appendChild:ÍùÖ¸¶¨ÔªËØµÄÄ©Î»Ìí¼ÓÔªËØ
- Parent.insertBefore(new,old):ÍùÇ°Ãæ²åÈë
-É¾³ýÔªËØ£ºparent.removeChild(ele);
-Ìæ»»ÔªËØ£ºparent.replaceChild(new,old);
-¿ËÂ¡ÔªËØ£ºparent.cloneNode();Ä¬ÈÏ¿ËÂ¡µ±Ç°ÔªËØ£¬²»»á¿ËÂ¡×Ó¼¶
-Èç¹ûÒª¿ËÂ¡×Ó¼¶£¬ÔÚÀ¨ºÅÀï´«Èëtrue¡£parent.cloneNode(true);
+DOMï¿½ï¿½ï¿½Äµï¿½ï¿½ï¿½ï¿½ï¿½Ä£ï¿½Í£ï¿½document,object,modelï¿½ï¿½
+Í¨ï¿½ï¿½documentï¿½á¹©ï¿½ï¿½APIï¿½ï¿½ï¿½ï¿½ï¿½è¿ªï¿½ï¿½ï¿½ß²ï¿½ï¿½ï¿½Ò³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+Ò³ï¿½ï¿½Ä±ï¿½Ç©ï¿½ï¿½DOMï¿½ÐµÄ¶ï¿½ï¿½ï¿½ï¿½ï¿½Ò»Ò»ï¿½ï¿½Ó¦ï¿½Ä¹ï¿½Ïµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Íµï¿½ï¿½Ú²ï¿½ï¿½ï¿½ï¿½ï¿½Ç©ï¿½ï¿½ï¿½ï¿½Ò³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ðµï¿½ï¿½ï¿½ï¿½Ý½Ð½Úµã¡£Node ï¿½ï¿½Ç©ï¿½ï¿½Ôªï¿½Ø½Úµã¡£
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í£ï¿½typeof
+ï¿½ï¿½ï¿½Úµï¿½ï¿½ï¿½ï¿½Í£ï¿½nodeType
+Ôªï¿½Ø½Úµï¿½1  ï¿½ï¿½Ç©ï¿½ï¿½Ôªï¿½Ø½Úµï¿½childrenï¿½ï¿½ï¿½Ó¼ï¿½Ôªï¿½Ø½Úµï¿½
+ï¿½Ä±ï¿½ï¿½Úµï¿½3 ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä±ï¿½ï¿½Í¿ï¿½ï¿½Ä±ï¿½ï¿½ï¿½
+×¢ï¿½Í½Úµï¿½8  ï¿½ï¿½ï¿½Ä±ï¿½ï¿½Úµï¿½ï¿½ï¿½Öµï¿½
+ï¿½ï¿½ï¿½Ô½Úµï¿½2  attributesï¿½ï¿½Ç°Ôªï¿½Øµï¿½ï¿½ï¿½ï¿½ï¿½Ó³ï¿½ï¿½ï¿½
+ï¿½Äµï¿½ï¿½Úµï¿½9 ï¿½ï¿½document.nodeTypeï¿½ï¿½
+nodeName:ï¿½Úµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+nadeValue:ï¿½Úµï¿½ï¿½ï¿½ï¿½ï¿½Öµ
+È¨ï¿½Ø£ï¿½ï¿½ï¿½Important(10000)>ï¿½ï¿½ï¿½ï¿½(1000)>id(100)>class(10)>ï¿½ï¿½Ç©(1)>*(0)
+childNodes:Ä³ï¿½ï¿½Ôªï¿½Ø½Úµï¿½ï¿½Âµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ó¼ï¿½ï¿½ï¿½ï¿½Ç¸ï¿½ï¿½ï¿½ï¿½Ï£ï¿½ï¿½ï¿½ï¿½ï¿½Òªï¿½ï¿½ï¿½Â±ï¿½
+parentNodeï¿½ï¿½ï¿½Ò¸ï¿½ï¿½ï¿½Ôªï¿½Ø¡ï¿½ï¿½Úµï¿½
+previousElementSiblingï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ÖµÜ½Úµï¿½
+nextElementSiblingï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ÖµÜ½Úµï¿½
+firstElementsChild:ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½Ôªï¿½Ø½Úµï¿½
+lastElementsChild:ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½Ôªï¿½Ø½Úµï¿½
+ï¿½ï¿½È¡Ôªï¿½Ø£ï¿½document.body...
+ï¿½ï¿½ï¿½ï¿½Ôªï¿½Ø£ï¿½1.ele.innerHTML = ï¿½ï¿½<div></div>ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½
+2.document.createElement(ï¿½ï¿½Ç©ï¿½ï¿½)ï¿½ï¿½ï¿½Úµï¿½
+ï¿½ï¿½ï¿½ï¿½Ôªï¿½Ø£ï¿½parent.appendChild(children)
+appendChild:ï¿½ï¿½Ö¸ï¿½ï¿½Ôªï¿½Øµï¿½Ä©Î»ï¿½ï¿½ï¿½ï¿½Ôªï¿½ï¿½
+ Parent.insertBefore(new,old):ï¿½ï¿½Ç°ï¿½ï¿½ï¿½ï¿½ï¿½
+É¾ï¿½ï¿½Ôªï¿½Ø£ï¿½parent.removeChild(ele);
+ï¿½æ»»Ôªï¿½Ø£ï¿½parent.replaceChild(new,old);
+ï¿½ï¿½Â¡Ôªï¿½Ø£ï¿½parent.cloneNode();Ä¬ï¿½Ï¿ï¿½Â¡ï¿½ï¿½Ç°Ôªï¿½Ø£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â¡ï¿½Ó¼ï¿½
+ï¿½ï¿½ï¿½Òªï¿½ï¿½Â¡ï¿½Ó¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï´«ï¿½ï¿½trueï¿½ï¿½parent.cloneNode(true);
 
-ÐÐ¼äµÄÊôÐÔ²Ù×÷£ºgetAttribute(ÊôÐÔÃû)£º»ñÈ¡Ö¸¶¨ÊôÐÔµÄÖµ
-setAttribute(ÊôÐÔÃû£¬ÊôÐÔÖµ)£»ÉèÖÃ
-element.dataset.index = 1;£¨ÐÐ¼äÒ²¿ÉÉèÖÃ£¬ºÜ³£ÓÃ£©			    removeAttribute(ÊôÐÔÃû)£ºÉ¾³ýÊôÐÔÃû
-×Ô¶¨ÒåµÄÐÐ¼äÊôÐÔ¶¼ÊÇ·ÅÔÚattributesÏÂµÄ
-Id classNameÊôÐÔ¶¼ÊÇÖ±½Ó·ÅÔÚ¶ÔÏóÏÂµÄ
-***ÕâÁ½¸ö²»ÔÚÒ»¸ö¿Õ¼äÏÂ£¬attributesÏµÁÐ²Ù×÷µÄÊôÐÔ¾ÍÊ¹ÓÃattributesÏµÁÐ»ñÈ¡£¬Ê¹ÓÃ¶ÔÏóÏÂµÄ·½Ê½²Ù×÷µÄÊôÐÔ¾ÍÊ¹ÓÃ¶ÔÏóÏÂµÄ·½Ê½È¥»ñÈ¡¡£ÏµÍ³ÄÚÖÃµÄÄ¬ÈÏÊôÐÔ³ýÍâ¡£
-
-
-Ê±¼ä¶ÔÏó£ºData¹¹Ôìº¯Êý£¬ÄÚÖÃ¶ÔÏó
-»ñÈ¡ÓÃ»§¼ÆËã»úµ±Ç°±¾µØµÄÊ±¼ä
-let d = new Data();//À¨ºÅ¿ÉÒÔ´«²Î£¨×Ö·û´®»òÊý×Ö£ºÔÂ-1£©
-Ò»ÏÂ·½·¨µÄÀ¨ºÅÖÐ´«ÏàÓ¦µÄ²ÎÊý¾ÍÊÇÉèÖÃÊ±¼ä¡£
-console.log(d.getData(0))£º²ÎÊýÎª0£¬×Ô¶¯È¥ÉÏ¸öÔÂ×îºóÒ»Ìì£¬
-console.log(d.getData(31))²ÎÊýÎªµ±Ç°ÔÂ×îºóÒ»Ìì£¬×Ô¶¯È¥ÏÂ¸öÔÂµÚÒ»Ìì¡£
-console.log(d.getFullYear()):»ñÈ¡µ±Ç°Äê·Ý
-console.log(d.getMonth()+1):»ñÈ¡µ±Ç°ÔÂ·Ý
-console.log(d.getData()):»ñÈ¡µ±Ç°ÈÕ
-console.log(d.getDay()):»ñÈ¡µ±Ç°ÖÜ¼¸£¨ÖÜÈÕÊÇ0£©
-console.log(d.getHours()):»ñÈ¡µ±Ç°Ð¡Ê±
-console.log(d.getMiinutes()):»ñÈ¡µ±Ç°·ÖÖÓ
-console.log(d.getSeconds()):»ñÈ¡µ±Ç°Ãë
-console.log(d.getTime()):»ñÈ¡Ê±¼ä´Á£¬ÊÇÒ»´®Êý×Ö
+ï¿½Ð¼ï¿½ï¿½ï¿½ï¿½ï¿½Ô²ï¿½ï¿½ï¿½ï¿½ï¿½getAttribute(ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½)ï¿½ï¿½ï¿½ï¿½È¡Ö¸ï¿½ï¿½ï¿½ï¿½ï¿½Ôµï¿½Öµ
+setAttribute(ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Öµ)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+element.dataset.index = 1;ï¿½ï¿½ï¿½Ð¼ï¿½Ò²ï¿½ï¿½ï¿½ï¿½ï¿½Ã£ï¿½ï¿½Ü³ï¿½ï¿½Ã£ï¿½			    removeAttribute(ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½)ï¿½ï¿½É¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½Ô¶ï¿½ï¿½ï¿½ï¿½ï¿½Ð¼ï¿½ï¿½ï¿½ï¿½Ô¶ï¿½ï¿½Ç·ï¿½ï¿½ï¿½attributesï¿½Âµï¿½
+Id classNameï¿½ï¿½ï¿½Ô¶ï¿½ï¿½ï¿½Ö±ï¿½Ó·ï¿½ï¿½Ú¶ï¿½ï¿½ï¿½ï¿½Âµï¿½
+***ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½Õ¼ï¿½ï¿½Â£ï¿½attributesÏµï¿½Ð²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô¾ï¿½Ê¹ï¿½ï¿½attributesÏµï¿½Ð»ï¿½È¡ï¿½ï¿½Ê¹ï¿½Ã¶ï¿½ï¿½ï¿½ï¿½ÂµÄ·ï¿½Ê½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô¾ï¿½Ê¹ï¿½Ã¶ï¿½ï¿½ï¿½ï¿½ÂµÄ·ï¿½Ê½È¥ï¿½ï¿½È¡ï¿½ï¿½ÏµÍ³ï¿½ï¿½ï¿½Ãµï¿½Ä¬ï¿½ï¿½ï¿½ï¿½ï¿½Ô³ï¿½ï¿½â¡£
 
 
+Ê±ï¿½ï¿½ï¿½ï¿½ï¿½Dataï¿½ï¿½ï¿½ìº¯ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã¶ï¿½ï¿½ï¿½
+ï¿½ï¿½È¡ï¿½Ã»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç°ï¿½ï¿½ï¿½Øµï¿½Ê±ï¿½ï¿½
+let d = new Data();//ï¿½ï¿½ï¿½Å¿ï¿½ï¿½Ô´ï¿½ï¿½Î£ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö£ï¿½ï¿½ï¿½-1ï¿½ï¿½
+Ò»ï¿½Â·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð´ï¿½ï¿½ï¿½Ó¦ï¿½Ä²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ä¡£
+console.log(d.getData(0))ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îª0ï¿½ï¿½ï¿½Ô¶ï¿½È¥ï¿½Ï¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ì£¬
+console.log(d.getData(31))ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½Ç°ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ì£¬ï¿½Ô¶ï¿½È¥ï¿½Â¸ï¿½ï¿½Âµï¿½Ò»ï¿½ì¡£
+console.log(d.getFullYear()):ï¿½ï¿½È¡ï¿½ï¿½Ç°ï¿½ï¿½ï¿½
+console.log(d.getMonth()+1):ï¿½ï¿½È¡ï¿½ï¿½Ç°ï¿½Â·ï¿½
+console.log(d.getData()):ï¿½ï¿½È¡ï¿½ï¿½Ç°ï¿½ï¿½
+console.log(d.getDay()):ï¿½ï¿½È¡ï¿½ï¿½Ç°ï¿½Ü¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½0ï¿½ï¿½
+console.log(d.getHours()):ï¿½ï¿½È¡ï¿½ï¿½Ç°Ð¡Ê±
+console.log(d.getMiinutes()):ï¿½ï¿½È¡ï¿½ï¿½Ç°ï¿½ï¿½ï¿½ï¿½
+console.log(d.getSeconds()):ï¿½ï¿½È¡ï¿½ï¿½Ç°ï¿½ï¿½
+console.log(d.getTime()):ï¿½ï¿½È¡Ê±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
 
-µ¹¼ÆÊ±£ºÎ´À´Ê±¼ä-ÏÖÔÚÊ±¼ä=Ê£ÏÂÊ±¼ä
-//Î´À´Ê±¼ä
-let time =new Data(¡®2019 9 6 12:40:00¡¯);//¹¤×÷ÒªÓÃ·þÎñÆ÷Ê±¼ä
-//µ±Ç°Ê±¼ä£º
+
+
+ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½Î´ï¿½ï¿½Ê±ï¿½ï¿½-ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½=Ê£ï¿½ï¿½Ê±ï¿½ï¿½
+//Î´ï¿½ï¿½Ê±ï¿½ï¿½
+let time =new Data(ï¿½ï¿½2019 9 6 12:40:00ï¿½ï¿½);//ï¿½ï¿½ï¿½ï¿½Òªï¿½Ã·ï¿½ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½
+//ï¿½ï¿½Ç°Ê±ï¿½ä£º
 let now=new Data();
-//Ê£ÓàÊ±¼ä£º
+//Ê£ï¿½ï¿½Ê±ï¿½ä£º
 console.log(time - now);
-//×ª»»³ÉÃë
+//×ªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 let t =Math.floor((time -now)/1000);
-//¶àÉÙ·Ö
-//ºÃ¼ÇÒÚµÄ·½·¨0
+//ï¿½ï¿½ï¿½Ù·ï¿½
+//ï¿½Ã¼ï¿½ï¿½ÚµÄ·ï¿½ï¿½ï¿½0
 Let day = Math.floor(t/86400);
 t  %= 86400;
 Let h = Math.floor(t/3600);
@@ -914,54 +914,54 @@ t  %= 3600;
 let min = Math.floor(t/60);
 t  %= 60;
 let se = Math.floor(t%60);
-console.log(min+¡¯·Ö¡¯+se+¡¯Ãë¡¯)£»
+console.log(min+ï¿½ï¿½ï¿½Ö¡ï¿½+se+ï¿½ï¿½ï¿½ë¡¯)ï¿½ï¿½
 
 
 
-¶¨Ê±Æ÷£º
-1.Ö»ÄÜ²Ù×÷Ò»´ÎµÄ
-setTimeout(»Øµ÷º¯Êý£¬Ê²Ã´Ê±ºòÖ´ÐÐº¯Êý£¨ºÁÃë£©£¬µÚÒ»¸ö»Øµ÷º¯ÊýµÄ²ÎÊý),·µ»ØÖµÊÇÒ»¸öÊý×Ö¡£
+ï¿½ï¿½Ê±ï¿½ï¿½ï¿½ï¿½
+1.Ö»ï¿½Ü²ï¿½ï¿½ï¿½Ò»ï¿½Îµï¿½
+setTimeout(ï¿½Øµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê²Ã´Ê±ï¿½ï¿½Ö´ï¿½Ðºï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ë£©ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½Øµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä²ï¿½ï¿½ï¿½),ï¿½ï¿½ï¿½ï¿½Öµï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½Ö¡ï¿½
 let timer = setTimeout(function(){
-alert(¡®111111111¡¯);
+alert(ï¿½ï¿½111111111ï¿½ï¿½);
 },3000)
-Çå³ý¶¨Ê±Æ÷
-clearTimeout£¨¶¨Ê±Æ÷µÄ±àºÅtimer£©
+ï¿½ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½
+clearTimeoutï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½ï¿½Ä±ï¿½ï¿½timerï¿½ï¿½
 btn.onclick?=?function(){
 ????????clearTimeout(timer);
 ????}
-2.Á¬Ðø²Ù×÷£¬µ½ÁËÊ±¼ä¾Í²Ù×÷
-setInterval(»Øµ÷º¯Êý£¬Ê²Ã´Ê±ºòÖ´ÐÐº¯Êý£¨ºÁÃë£©£¬µÚÒ»¸ö»Øµ÷º¯ÊýµÄ²ÎÊý);
+2.ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½Í²ï¿½ï¿½ï¿½
+setInterval(ï¿½Øµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê²Ã´Ê±ï¿½ï¿½Ö´ï¿½Ðºï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ë£©ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½Øµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä²ï¿½ï¿½ï¿½);
 
 let?timer?=?setInterval(function(){
 ????????console.log('Õ¨');
 ????},10);
-Çå³ý¶¨Ê±Æ÷
-clearInterval£¨¶¨Ê±Æ÷µÄ±àºÅtimer£©
+ï¿½ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½
+clearIntervalï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½ï¿½Ä±ï¿½ï¿½timerï¿½ï¿½
 btn.onclick?=?function(){
 ????????clearInterval(timer);
 }
 
-¹Ø¼üÖ¡£º16.7ºÁÃë
- requestAnimationFrame:¸ù¾ÝË¢ÆµÂÊ×ßµÄ£¬·µ»ØÖµÊÇ±àºÅ
-cancelAnimationFrame£º¹Ø±Õ¹Ø¼üÖ¡
-Math¶ÔÏó£º(ÄÚÖÃ¶ÔÏó)
-console.dir(Math):²é¿´MathÏÂÃæµÄÊýÑ§·½·¨
-ÏòÏÂÈ¡Õû£ºconsole.log(Math.floor(1.6524))//1
-ÏòÉÏÈ¡Õû£ºconsole.log(Math.ceil(1.1524))//2
-È¡¾ø¶ÔÖµ£ºMath.abs(-1);//1
-È¡×î´óÖµ£ºconsole.log(Math.max(10,2,80,33))//80
-*Ê¹ÓÃÀ©Õ¹ÔËËã·û£ºconsole.log(Math.max(...[10,2,80,¡¯33¡¯]))//80
-È¡×îÐ¡Öµ£ºconsole.log(Math.min(10,2,80,33))//2
-È¡ÃÝ£ºconsole.log(Math.pow(8,2));//64
-¿ª·½£ºconsole.log(Math.sqrt(8£¬8));//64
-È¡Ëæ»úÊý£ºconsole.log(Math.random());//0~1Ö®¼äÎÞÏÞ²»Ñ­»·Ð¡Êý
-console.log(Math.random()*(y-x)+x);È¡x~yÖ®¼äµÄËæ»úÊý
-Ëæ»ú´òÂÒÊý×é£º
+ï¿½Ø¼ï¿½Ö¡ï¿½ï¿½16.7ï¿½ï¿½ï¿½ï¿½
+ requestAnimationFrame:ï¿½ï¿½ï¿½ï¿½Ë¢Æµï¿½ï¿½ï¿½ßµÄ£ï¿½ï¿½ï¿½ï¿½ï¿½Öµï¿½Ç±ï¿½ï¿½
+cancelAnimationFrameï¿½ï¿½ï¿½Ø±Õ¹Ø¼ï¿½Ö¡
+Mathï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½ï¿½Ã¶ï¿½ï¿½ï¿½)
+console.dir(Math):ï¿½é¿´Mathï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ§ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½È¡ï¿½ï¿½ï¿½ï¿½console.log(Math.floor(1.6524))//1
+ï¿½ï¿½ï¿½ï¿½È¡ï¿½ï¿½ï¿½ï¿½console.log(Math.ceil(1.1524))//2
+È¡ï¿½ï¿½ï¿½ï¿½Öµï¿½ï¿½Math.abs(-1);//1
+È¡ï¿½ï¿½ï¿½Öµï¿½ï¿½console.log(Math.max(10,2,80,33))//80
+*Ê¹ï¿½ï¿½ï¿½ï¿½Õ¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½console.log(Math.max(...[10,2,80,ï¿½ï¿½33ï¿½ï¿½]))//80
+È¡ï¿½ï¿½Ð¡Öµï¿½ï¿½console.log(Math.min(10,2,80,33))//2
+È¡ï¿½Ý£ï¿½console.log(Math.pow(8,2));//64
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½console.log(Math.sqrt(8ï¿½ï¿½8));//64
+È¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½console.log(Math.random());//0~1Ö®ï¿½ï¿½ï¿½ï¿½ï¿½Þ²ï¿½Ñ­ï¿½ï¿½Ð¡ï¿½ï¿½
+console.log(Math.random()*(y-x)+x);È¡x~yÖ®ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½é£º
 let ary = [1,2,5,9,7,8];
 ary. Sort(()=>{return ary.random()-0.5});
-È¡ÕûÊý£ºËÄÉáÎåÈë£ºconsole.log(Math.round(3.52));//4
+È¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ë£ºconsole.log(Math.round(3.52));//4
 
-Ëæ»úÊý£º
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 let?timer;
 ????box.onclick?=?function(){
 ????????//?console.log(Math.floor(Math.random()?*?str.length),str.length)
@@ -981,12 +981,12 @@ let?timer;
 ????????box.innerHTML?=?'58TCH';
 ????}
 
-µÝ¹é£º¾ÍÊÇº¯Êý×Ô¼ºµ÷ÓÃ×Ô¼º
-Ð´µÝ¹éµÄÊ±ºòÒ»¶¨ÒªÓÐÒ»¸öÌõ¼þÖÕÖ¹µÝ¹é£¬²»È»»áËÀÑ­»·¡£
-Ê²Ã´Ê±ºòÓÃ£º£¿
-²ÎÊý²»Í¬£¬»¹Ïë·´¸´Ö´ÐÐÍ¬Ò»¶Î´úÂë
+ï¿½Ý¹é£ºï¿½ï¿½ï¿½Çºï¿½ï¿½ï¿½ï¿½Ô¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô¼ï¿½
+Ð´ï¿½Ý¹ï¿½ï¿½Ê±ï¿½ï¿½Ò»ï¿½ï¿½Òªï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö¹ï¿½Ý¹é£¬ï¿½ï¿½È»ï¿½ï¿½ï¿½ï¿½Ñ­ï¿½ï¿½ï¿½ï¿½
+Ê²Ã´Ê±ï¿½ï¿½ï¿½Ã£ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í¬ï¿½ï¿½ï¿½ï¿½ï¿½ë·´ï¿½ï¿½Ö´ï¿½ï¿½Í¬Ò»ï¿½Î´ï¿½ï¿½ï¿½
 
-//?fn(5)??ÊµÏÖ1+2+3+4+5??15
+//?fn(5)??Êµï¿½ï¿½1+2+3+4+5??15
 
 ????function?fn(n){
 ????????if(n?===?1)return?1;
@@ -995,25 +995,25 @@ let?timer;
 ????console.log(fn(5));
 
 
-Ñ¡Ïî¿¨£º
-1.×Ô¶¨ÒåÊôÐÔ£º¹ØÁª»òÒ»Ò»¶ÔÓ¦£¬Æ¥ÅäµÄÊ±ºòÊ¹ÓÃ£¨ºËÐÄ£©
-2.ÄÑµã£ºthisÈçºÎ¶ÔÓ¦¹ØÁª btns[i].index = i;
-3.1.¸øÃ¿¸ö°´Å¥Ìí¼Óµã»÷ÊÂ¼þ
-3.2.°ÑÄ¬ÈÏµÄ°´Å¥´æÆðÀ´
-3.3.µã»÷°´Å¥µÄÊ±ºòÏÈ°ÑÓÐÑÕÉ«µÄ°´Å¥µÄclassnameÇå¿Õ£¬ËùÓÐµÄ			divÒ²Çå¿Õ
-3.4.°Ñµ±Ç°µÄ°´Å¥µÄclassnameÌí¼Óactive
-3.5.°Ñµã»÷°´Å¥¶ÔÓ¦µÄÄÚÈÝµÄclassnameÒ²Ìí¼Óshow
-3.6.°Ñ¸Õ²ÅÄ¬ÈÏ±äÉ«µÄÄÇ¸ö°´Å¥±ä³Éµ±Ç°µÄ¡£
+Ñ¡ï¿½î¿¨ï¿½ï¿½
+1.ï¿½Ô¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»Ò»ï¿½ï¿½Ó¦ï¿½ï¿½Æ¥ï¿½ï¿½ï¿½Ê±ï¿½ï¿½Ê¹ï¿½Ã£ï¿½ï¿½ï¿½ï¿½Ä£ï¿½
+2.ï¿½Ñµã£ºthisï¿½ï¿½Î¶ï¿½Ó¦ï¿½ï¿½ï¿½ï¿½ btns[i].index = i;
+3.1.ï¿½ï¿½Ã¿ï¿½ï¿½ï¿½ï¿½Å¥ï¿½ï¿½ï¿½Óµï¿½ï¿½ï¿½Â¼ï¿½
+3.2.ï¿½ï¿½Ä¬ï¿½ÏµÄ°ï¿½Å¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+3.3.ï¿½ï¿½ï¿½ï¿½ï¿½Å¥ï¿½ï¿½Ê±ï¿½ï¿½ï¿½È°ï¿½ï¿½ï¿½ï¿½ï¿½É«ï¿½Ä°ï¿½Å¥ï¿½ï¿½classnameï¿½ï¿½Õ£ï¿½ï¿½ï¿½ï¿½Ðµï¿½			divÒ²ï¿½ï¿½ï¿½
+3.4.ï¿½Ñµï¿½Ç°ï¿½Ä°ï¿½Å¥ï¿½ï¿½classnameï¿½ï¿½ï¿½ï¿½active
+3.5.ï¿½Ñµï¿½ï¿½ï¿½ï¿½Å¥ï¿½ï¿½Ó¦ï¿½ï¿½ï¿½ï¿½ï¿½Ýµï¿½classnameÒ²ï¿½ï¿½ï¿½ï¿½show
+3.6.ï¿½Ñ¸Õ²ï¿½Ä¬ï¿½Ï±ï¿½É«ï¿½ï¿½ï¿½Ç¸ï¿½ï¿½ï¿½Å¥ï¿½ï¿½Éµï¿½Ç°ï¿½Ä¡ï¿½
 
 
-ÅÅÐò£º
+ï¿½ï¿½ï¿½ï¿½
 1.sort()
-2.Ã°ÅÝÅÅÐò:
-3.¿ìËÙÅÅÐò£º
+2.Ã°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½:
+3.ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
 
 
-
+fxgdfghdhd
 
 
 
